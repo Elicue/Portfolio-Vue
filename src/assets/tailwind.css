@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Voyage;
+    src: url(Fonts/Voyage-Regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: Voyage Bold;
+    src: url(Fonts/Voyage-Bold.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: Staff;
+    src: url(Fonts/Staff-Regular.ttf) format('truetype');
+  }
+};
