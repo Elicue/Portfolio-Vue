@@ -34,7 +34,7 @@
           <router-link to="/ContactViews"><p class="uppercase font-semibold">contact me</p></router-link>
         </div>
         <div class="bwp w-1/3 text-left">
-          <p class="uppercase tracking-wider">build with passion @ 2022</p>
+          <p class="uppercase tracking-wider">build with passion @ 2023</p>
         </div>
       </div>
     </div>

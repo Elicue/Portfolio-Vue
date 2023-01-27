@@ -1,5 +1,5 @@
 <template>
-  <div class="projects w-full mt-[15vh]  overflow-hidden">
+  <div class="projects w-full mt-[15vh] overflow-hidden">
     <main class="w-11/12 mx-auto">
       <div class="haut flex flex-row w-full h-[70vh]">
         <div class="gauche fade-in-left w-[30%] flex flex-col relative justify-between items-start">
@@ -52,10 +52,10 @@
       <div class="projects w-full h-full mt-[20vh]">
         <div class="w-full mb-[15vh] h-[65vh] flex flex-row items-center relative">
           <div  class="w-1/2">
-            <Card class="w-11/12 mx-auto" titre="POKEDEX" url="images/pokedex.png" desc="interactif"/>
+            <Card class="w-11/12 mx-auto" titre="POKEDEX" url="images/pkmn-side.png" desc="interactif"/>
           </div>
           <div class="w-1/2">
-            <ProjectCard titre="functionnal" sousTitre="pokedex" desc="Réalisation du front d'un pokédex fonctionnel, avec recherche, possibilité de trier les pokémons grâce à son type, ou au fait qu'il soit capturé ou non. Back-end réalisé par" name=" Charles-Chrismann." maquette="maquettes/pokedex.xd" github="https://elicue.github.io/Pokedex/" coop="https://github.com/Charles-Chrisman"/>
+            <ProjectCard titre="functionnal" sousTitre="pokedex" desc="Réalisation du front d'un pokédex fonctionnel, avec recherche, possibilité de trier les pokémons grâce à son type, ou au fait qu'il soit capturé ou non. Back-end réalisé par" name=" Charles-Chrismann." maquette="maquettes/pokedex.xd" github="https://elicue.github.io/Pokedex/" coop="https://github.com/Charles-Chrismann"/>
           </div>
           <Circles/>
         </div>
@@ -64,13 +64,13 @@
             <ProjectCard2 titre="AVENUE DE CAMOËNS" sousTitre="projet scss" desc="Projet réalisé en cours en cours, dans le but d'améliorer nos capacitées en grid et scss. Le but était de faire une page parlant d'un lieu dans Paris, sa localisation et son histoire." maquette="maquettes/Avenue de Camoëns.xd" github="https://github.com/Elicue/Avenue-de-Camoens" />
           </div>
           <div  class="w-1/2">
-            <Card class="w-11/12 mx-auto" titre="home page" url="images/scss.webp" desc="avenue de camöens"/>
+            <Card class="w-11/12 mx-auto" titre="home page" url="images/sass-side.png" desc="avenue de camöens"/>
           </div>
           <Circles2/>
         </div>
         <div class="w-full mb-[15vh] h-[65vh] flex flex-row items-center relative">
           <div  class="w-1/2">
-            <Card class="w-11/12 mx-auto" titre="home page" url="images/jadoo.webp" desc="site de voyage"/>
+            <Card class="w-11/12 mx-auto" titre="home page" url="images/jadoo-side.png" desc="site de voyage"/>
           </div>
           <div class="w-1/2">
             <ProjectCard titre="INTÉGRATION" sousTitre="de maquette" desc="Intégration d'une maquette dans le but d'améliorer mes capacités en front-end, notamment les position et les displays." maquette="maquettes/Travel.fig" github="https://github.com/Elicue/JADOO"/>
@@ -82,13 +82,13 @@
             <ProjectCard2 titre="site de streaming" sousTitre="devlab" desc="Projet effectué dans un cadre scolaire, visant à réaliser une plateforme de streaming, grâce à 'The MovieDB', une base de données de films et de séries créée par la communauté. projet en collaboration avec" name=" Arthur Prud'homme" coop="https://github.com/Arthur-Prudhomme" maquette="https://www.figma.com/file/SeOYP71T6NuSVTvXMOmpBY/Devlab?node-id=0%3A1&t=1MCpeBsXvkH1HtJo-0" github="https://github.com/Arthur-Prudhomme/Devlab" />
           </div>
           <div  class="w-1/2">
-            <Card class="w-11/12 mx-auto" titre="home page" url="images/devlab.png" desc="site de streaming"/>
+            <Card class="w-11/12 mx-auto" titre="home page" url="images/devlab-side.png" desc="site de streaming"/>
           </div>
           <Circles2/>
         </div>
         <div class="w-full mb-[15vh] h-[65vh] flex flex-row items-center relative">
           <div  class="w-1/2">
-            <Card class="w-11/12 mx-auto" titre="ecologica" url="images/ecologica.png" desc="site présentation"/>
+            <Card class="w-11/12 mx-auto" titre="ecologica" url="images/bap-side.png" desc="site présentation"/>
           </div>
           <div class="w-1/2">
             <ProjectCard titre="présentation" sousTitre="ecologica" desc="Il s'agit d'une refonte partielle du site internet de l'école du supérieur Ecologica. Notre refonte comprend la page de candidature, la page Ecologica et la page formulaire. Cela a été réalisé dans le cadre d'un projet de 2éme année à l'IIM, avec" name=" Arthur Prud'homme," name2=" Théa Blachon," name3="Pierre-louis Sans." maquette="https://www.figma.com/file/ZnngDx1YN8zLqOCcDPKc2t/BAP%2Fperso?node-id=0%3A1&t=uMd5efEBABi9xQrD-0" github="https://github.com/EthraDev/site_static_ecologica" coop="https://github.com/Arthur-Prudhomme" coop2="https://github.com/EthraDev" coop3="https://github.com/Pl83"/>

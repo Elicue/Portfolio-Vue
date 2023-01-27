@@ -117,7 +117,7 @@
             <div class="front flex flex-col w-11/12 items-end relative justify-between h-full">
               <div class="titre flex flex-col w-12/12 mx-auto absolute -top-52 text-noir">
                 <h1 class="text-6xl uppercase font-extrabold" id="output">front end</h1>
-                <p class=" text-5xl font-semibold uppercase" id="projet"> <span></span> developer</p>
+                <p class=" text-6xl font-semibold font-voyage" id="projet"> <span></span> developer</p>
               </div>
               <div class="content flex items-start text-right border-r-[1px] border-noir pr-4 w-4/5 text-lg">
                 <p class="text-gris font-semibold">Réalisation d'un site web de nourriture asiatique, comprenant plusieurs pages, telles que celle d'accueil, un blog ou encore une page sur l'histoire de la marque.</p>
@@ -161,7 +161,7 @@
             <div class="content h-full">
               <div class="fade-in-left h-full justify-between flex flex-col">
                 <div class="skills h-full justify-between flex flex-col">
-                  <div class="first h-[20vh] flex flex-row">
+                  <div class="first h-[20vh] mb-[10vh] flex flex-row">
                     <div class="skills grid grid-cols-4 w-3/5 justify-between">
                       <Skill titre="html" href="https://developer.mozilla.org/fr/docs/Web/HTML" url="/images/html-logo.svg" skill="html"/>
                       <Skill titre="sass" href="https://sass-lang.com/documentation/" url="/images/sass-logo.svg" skill="sass"/>
@@ -169,10 +169,10 @@
                       <Skill titre="js" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" url="/images/js-logo.svg" skill="js"/>
                     </div>
                     <div class="w-2/5 flex flex-row items-center">
-                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Grâce à l'école et à mon investissement personnel, j'ai développé des compétences dans certains domaines du développement web, comme certains langages et logiciels back-end et particulierement front-end, comme html, css, js et sass, ou php et sql;</p>
+                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Grâce à l'école et à mon investissement personnel, j'ai développé des compétences dans certains domaines du développement web, comme certains langages et logiciels front-end, comme html, css, js, sass, ou encore tailwind;</p>
                     </div>
                   </div>
-                  <div class="second h-[20vh] flex flex-row">
+                  <div class="second h-[20vh] mb-[10vh] flex flex-row">
                     <div class="w-2/5 flex flex-row items-center">
                       <p class="border-r-[1px] border-noir pr-6 w-11/12 text-right">Ou encore des frameworks adobe comme illustrator, photoshop et xd, et enfin figma, très utile pour travailler sur des réalisations de maquettes de sites web.</p>
                     </div>
@@ -183,15 +183,15 @@
                       <Skill titre="framer" href="https://www.framer.com/motion/" url="/images/framer-logo.png" skill="framer"/>
                     </div>
                   </div>
-                  <div class="third h-[20vh] flex flex-row">
+                  <div class="third h-[20vh] mb-[10vh] flex flex-row">
                     <div class="skills grid grid-cols-4 w-3/5 justify-between">
                       <Skill titre="php" href="https://www.php.net/docs.php" url="/images/php-logo.svg" skill="php"/>
                       <Skill titre="vue" href="https://vuejs.org/guide/introduction.html" url="/images/vue-logo.png" skill="vue"/>
-                      <!-- <Skill titre="vue" href="https://vuejs.org/guide/introduction.html" url="/images/vue-logo.png" skill="vue"/> -->
-                      <!-- <Skill titre="vue" href="https://vuejs.org/guide/introduction.html" url="/images/vue-logo.png" skill="vue"/> -->
+                      <Skill titre="MySQL" href="https://dev.mysql.com/doc/" url="/images/MySQL-logo.png" skill="MySQL"/>
+                      <Skill titre="git" href="https://git-scm.com/docæ" url="/images/git-logo.png" skill="git"/>
                     </div>
                     <div class="w-2/5 flex flex-row items-center">
-                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left"></p>
+                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Ou des langages et logiciels back-end, tels que php et sql, ou bien Vue.js.</p>
                     </div>
                   </div>
                 </div>
@@ -202,6 +202,7 @@
       </div>
       
       <Footer/>
+      <Scrollbar/>
     </div>
   </div>
 </template>
@@ -243,6 +244,7 @@
   import Card from '@/components/Card.vue';
   import Skill from '@/components/Skill.vue';
   import Footer from '@/components/Footer.vue';
+  import Scrollbar from '@/components/Scrollbar.vue';
 
   export default {
 
@@ -252,6 +254,7 @@
       Card,
       Skill,
       Footer,
+      Scrollbar
     },
   }
 </script>
