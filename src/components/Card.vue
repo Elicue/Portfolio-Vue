@@ -8,7 +8,7 @@
     </div>
     <div class="desc flex w-11/12 mx-auto">
       <div class="left flex flex-col items-start">
-        <p class="text-gris font-semibold">Présentation</p>
+        <p class="text-gris font-semibold">Presentation of</p>
         <p class="uppercase font-bold">{{ desc }}</p>
       </div>
     </div>

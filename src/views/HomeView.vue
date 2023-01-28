@@ -59,7 +59,7 @@
               <p>Currently a 2nd year student in coding & web development at IIM Digital School Paris. <br> I am passionate about creating websites and applications.</p>
             </div>
             <div class="cta -mt-8">
-              <a href="contact.html"><button class="uppercase text-white bg-noir px-6 py-3 text-2xl font-semibold">CONTACT ME</button></a>
+              <Button titre="contact me" href="contact.html"/>
             </div>
             <div class="arrow">
               <a href="#ref">
@@ -74,13 +74,11 @@
             <div class="fond w-32 h-32 bg-white rounded-full"></div>
           </div>
           <div class="card w-[55vh] border-[1.5px] border-noir h-full text-noir">
-            <div class="titre">
-            </div>
             <div class="image items-center flex flex-col relative justify-end h-[65vh]">
               <img loading="lazy" class="border-b-[1px] w-11/12 border-noir grayscale hover:grayscale-0 hover:scale-105 transition-all" width="400" height="auto" src="images/mwa.webp" alt="moi">
               <div class="flou absolute bg-white bg-opacity-50 backdrop-blur-md w-10/12 bottom-8 h-[13vh] py-3 flex flex-row items-start justify-between">
                 <div class="titre w-11/12 mx-auto flex flex-col justify-between h-full">
-                  <h3 class="text-lg font-bold">Voir mes projets</h3>
+                  <h3 class="text-lg font-bold">See my projects</h3>
                   <h3 class="text-base">( Work in progress )</h3>
                   <!-- <p>lorem ipsum</p> -->
                 </div>
@@ -91,11 +89,11 @@
             </div>
             <div class="desc flex flex-row w-10/12 mx-auto justify-between h-[8vh] pt-6">
               <div class="gauche flex flex-col items-start">
-                <h3 class="uppercase text-sm font-bold">rester à l'écoute </h3>
-                <p class="text-gris text-base">pour de nouveaux projets</p>
+                <h3 class="uppercase text-sm font-bold">stay tuned</h3>
+                <p class="text-gris text-base">for new projects</p>
               </div>
               <div class="droite">
-                <router-link to="/"><button class="uppercase text-white bg-noir px-6 py-3">VOIR PLUS</button></router-link>
+                <router-link to="/"><button class="uppercase text-white bg-noir px-6 py-3">SEE MORE</button></router-link>
               </div>
             </div>
           </div>
@@ -106,9 +104,9 @@
           <div class="gauche fade-in-left w-[30%] flex flex-col justify-end h-full">
             <div class="flex flex-col w-full justify-end h-5/6">
               <div class="flex flex-col w-full justify-between h-full">
-                <Card url="/images/site_axe_haut.webp" filename="mwa.webp" titre="home page" desc="des services"/>
+                <Card url="/images/site_axe_haut.webp" filename="mwa.webp" titre="home page" desc="services"/>
                 <div class="cta w-11/12">
-                  <a href="maquettes/site_axe_maquette.xd" download><button class="text-white uppercase bg-noir px-6 py-3 text-lg">telecharger la maquette</button></a>
+                  <Button href="maquettes/site_axe_maquette.xd" titre="download the model"/>
                 </div>
               </div>
             </div>
@@ -120,10 +118,10 @@
                 <p class=" text-6xl font-semibold font-voyage" id="projet"> <span></span> developer</p>
               </div>
               <div class="content flex items-start text-right border-r-[1px] border-noir pr-4 w-4/5 text-lg">
-                <p class="text-gris font-semibold">Réalisation d'un site web de nourriture asiatique, comprenant plusieurs pages, telles que celle d'accueil, un blog ou encore une page sur l'histoire de la marque.</p>
+                <p class="text-gris font-semibold">Realization of an Asian food website, including several pages, such as the home page, a blog or even a page on the history of the brand.</p>
               </div>
             </div>
-            <Card url="/images/site_axe_center.webp" filename="mwa.webp" titre="home page" desc="des produits"/>
+            <Card url="/images/site_axe_center.webp" filename="mwa.webp" titre="home page" desc="products"/>
           </div>
           <div class="droite w-[40%] mx-auto flex flex-col justify-center">
             <div class="w-full mx-auto h-3/4 flex flex-col justify-around">
@@ -133,7 +131,7 @@
                 <h1 class="font-staff uppercase">design creation</h1>
               </div>
               <div class="content fade-in-right w-11/12 mx-auto flex flex-col text-left text-gris font-semibold">
-                <p class="w-3/4">Réalisation de la maquette, charte graphique, stratégie marketing, et ensemble du site, front-end et back-end.</p>
+                <p class="w-3/4">Realization of the model, graphic charter, marketing strategy, and the entire site, front-end and back-end.</p>
               </div>
               <router-link to="/">
                 <div class="cta flex flex-row relative hidden">
@@ -169,12 +167,12 @@
                       <Skill titre="js" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" url="/images/js-logo.svg" skill="js"/>
                     </div>
                     <div class="w-2/5 flex flex-row items-center">
-                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Grâce à l'école et à mon investissement personnel, j'ai développé des compétences dans certains domaines du développement web, comme certains langages et logiciels front-end, comme html, css, js, sass, ou encore tailwind;</p>
+                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Thanks to school and my personal investment, I have developed skills in certain areas of web development, such as certain languages and front-end software, such as html, css, js, sass, or even tailwind;</p>
                     </div>
                   </div>
                   <div class="second h-[20vh] mb-[10vh] flex flex-row">
                     <div class="w-2/5 flex flex-row items-center">
-                      <p class="border-r-[1px] border-noir pr-6 w-11/12 text-right">Ou encore des frameworks adobe comme illustrator, photoshop et xd, et enfin figma, très utile pour travailler sur des réalisations de maquettes de sites web.</p>
+                      <p class="border-r-[1px] border-noir pr-6 w-11/12 text-right">Or even adobe frameworks like illustrator, photoshop and xd, and finally figma, very useful for working on the creation of website models.</p>
                     </div>
                     <div class="skills grid grid-cols-4 w-3/5 justify-between">
                       <Skill titre="figma" href="https://help.figma.com/hc/fr" url="/images/figma-logo.svg" skill="figma"/>
@@ -191,7 +189,7 @@
                       <Skill titre="git" href="https://git-scm.com/docæ" url="/images/git-logo.png" skill="git"/>
                     </div>
                     <div class="w-2/5 flex flex-row items-center">
-                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Ou des langages et logiciels back-end, tels que php et sql, ou bien Vue.js.</p>
+                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Or backend languages and software, such as php and sql, or Vue.js.</p>
                     </div>
                   </div>
                 </div>
@@ -200,9 +198,7 @@
           </div>
         </div>
       </div>
-      
       <Footer/>
-      <Scrollbar/>
     </div>
   </div>
 </template>
@@ -244,7 +240,8 @@
   import Card from '@/components/Card.vue';
   import Skill from '@/components/Skill.vue';
   import Footer from '@/components/Footer.vue';
-  import Scrollbar from '@/components/Scrollbar.vue';
+  import Button from '@/components/Button.vue';
+
 
   export default {
 
@@ -254,7 +251,7 @@
       Card,
       Skill,
       Footer,
-      Scrollbar
+      Button,
     },
   }
 </script>

@@ -23,45 +23,56 @@
   width: 0;
 }
 
-
-.scroll { 
-  display: block;
-  width: 15px;
-  position: fixed;
-  right: 30px;
-  z-index: 5;
-  margin-top: 150px;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.scroll .barre {
-  border: 1px #191919 solid;
-  height: 500px;
-  border-radius: 50px;
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
-
-#scrollPath {
-  height: 100%;
-  display: block;
-  border-radius: 50px;
-  position: absolute;
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
-#progressBar {
-  height: 0;
-  background-color: #a5334a;
-  display: block;
-  border-radius: 50px;
+@keyframes fadeInTop {
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
-#progressBar::before {
-  content: "";
-  height: 100%;
-  background-color: #a5334a;
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-#progressBar::after {
-  content: "";
-  height: 100%;
-  background-color: #a5334a;
-}
