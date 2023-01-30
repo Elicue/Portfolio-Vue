@@ -57,7 +57,7 @@
           <div class="lg:w-1/2">
             <ProjectCard titre="functionnal" sousTitre="pokedex" desc="Realization of the front of a functional pokédex, with research, possibility of sorting the pokémons thanks to its type, or to the fact that it is captured or not. Back-end made by" name=" Charles-Chrismann." maquette="maquettes/pokedex.xd" github="https://elicue.github.io/Pokedex/" coop="https://github.com/Charles-Chrismann"/>
           </div>
-          <!-- <Circles/> -->
+          <Circles/>
         </div>
         <div class="w-full mb-[15vh] lg:h-[65vh] flex flex-col lg:flex-row items-center relative">
           <div class="lg:w-1/2">
@@ -66,7 +66,7 @@
           <div class="lg:w-1/2">
             <Card class="w-11/12 mx-auto" titre="home page" url="images/sass-side.png" desc="avenue de camöens"/>
           </div>
-          <!-- <Circles2/> -->
+          <Circles2/>
         </div>
         <div class="w-full mb-[15vh] lg:h-[65vh] flex flex-col lg:flex-row items-center relative">
           <div  class="lg:w-1/2">
@@ -75,7 +75,7 @@
           <div class="lg:w-1/2">
             <ProjectCard titre="INTÉGRATION" sousTitre="de maquette" desc="Integration of a model in order to improve my front-end capacities, in particular positions and displays." maquette="maquettes/Travel.fig" github="https://github.com/Elicue/JADOO"/>
           </div>
-          <!-- <Circles/> -->
+          <Circles/>
         </div>
         <div class="w-full mb-[15vh] lg:h-[65vh] flex flex-col lg:flex-row items-center relative">
           <div class="lg:w-1/2">
@@ -84,7 +84,7 @@
           <div  class="lg:w-1/2">
             <Card class="w-11/12 mx-auto" titre="home page" url="images/devlab-side.png" desc="site de streaming"/>
           </div>
-          <!-- <Circles2/> -->
+          <Circles2/>
         </div>
         <div class="w-full mb-[15vh] lg:h-[65vh] flex flex-col lg:flex-row items-center relative">
           <div  class="lg:w-1/2">
@@ -93,12 +93,13 @@
           <div class="lg:w-1/2">
             <ProjectCard titre="présentation" sousTitre="ecologica" desc="This is a partial redesign of the Ecologica higher education school website. Our redesign includes the application page, the Ecologica page and the form page. This was done as part of a 2nd year project at IIM, with" name=" Arthur Prud'homme," name2=" Théa Blachon," name3="Pierre-louis Sans." maquette="https://www.figma.com/file/ZnngDx1YN8zLqOCcDPKc2t/BAP%2Fperso?node-id=0%3A1&t=uMd5efEBABi9xQrD-0" github="https://github.com/EthraDev/site_static_ecologica" coop="https://github.com/Arthur-Prudhomme" coop2="https://github.com/EthraDev" coop3="https://github.com/Pl83"/>
           </div>
-          <!-- <Circles/> -->
+          <Circles/>
         </div>
       </div>
     </main>
     <Footer/>
   </div>
+  
 </template>
 
 <script>
@@ -110,8 +111,8 @@
   import Logo from '@/components/Logo.vue';
   import ProjectCard from '@/components/ProjectCard.vue';
   import ProjectCard2 from '@/components/ProjectCard2.vue';
-  // import Circles from '@/components/Circles.vue';
-  // import Circles2 from '@/components/Circles2.vue';
+  import Circles from '@/components/Circles.vue';
+  import Circles2 from '@/components/Circles2.vue';
 
   export default {
 
@@ -125,8 +126,8 @@
       Logo,
       ProjectCard,
       ProjectCard2,
-      // Circles,
-      // Circles2,
+      Circles,
+      Circles2,
     },
   }
 </script>

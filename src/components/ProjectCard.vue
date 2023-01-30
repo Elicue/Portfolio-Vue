@@ -9,8 +9,8 @@
       </p>
     </div>
     <div class="cta justify-between flex flex-row lg:w-3/5">
-      <a href="maquette" download><button class="uppercase text-white border-[1px] border-primary bg-primary px-6 py-3 text-sm">download the model</button></a>
-      <a href="github"><button class="uppercase border-[1px] border-noir text-noir bg-transparent px-6 py-3 text-sm">github</button></a>
+      <a href="maquette" download><button class="uppercase text-white border-[1px] border-primary bg-primary px-6 py-3 text-sm hover:scale-110 transition-all">download the model</button></a>
+      <a href="github"><button class="uppercase border-[1px] border-noir text-noir bg-transparent px-6 py-3 text-sm hover:scale-110 transition-all">github</button></a>
     </div>
   </div>
 </template>

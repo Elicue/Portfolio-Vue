@@ -41,7 +41,7 @@
                 </div>
               </div>
               <div class="flex flex-row justify-end lg:mt-8 mt-2 relative">
-                <h2 class="font-voyage uppercase font-bold lg:text-6xl text-4xl">portfolio</h2>
+                <h2 class="font-voyage text-primary uppercase font-bold lg:text-6xl text-4xl">portfolio</h2>
                 <svg width="70" height="79" class="absolute lg:flex hidden right-[34%] bottom-[2vh] rotate-[210deg]" viewBox="0 0 100 99" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_7_692)">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M33.9842 3.52762C63.5826 22.879 65.802 58.5118 55.5267 89.875C55.3512 90.4141 55.6447 90.9961 56.1837 91.1716C56.7227 91.347 57.3046 91.0536 57.4801 90.5146C68.045 58.2736 65.5354 21.7 35.1074 1.80701C34.634 1.49614 33.9974 1.62994 33.6855 2.1057C33.3746 2.57911 33.5084 3.21566 33.9842 3.52762Z" fill="#797773"/>
@@ -59,7 +59,8 @@
               <p>Currently a 2nd year student in coding & web development at IIM Digital School Paris. <br> I am passionate about creating websites and applications.</p>
             </div>
             <div class="cta -my-8">
-              <Button titre="contact me" href="contact.html"/>
+              <Button titre="my projects" href="projects"/>
+              <!-- <Button titre="contact me" href="contact.html"/> -->
             </div>
             <div class="arrow">
               <a href="#ref">
@@ -114,8 +115,8 @@
           <div class="centre fade-in-bottom lg:w-[30%] flex flex-col lg:mt-0 mt-20">
             <div class="front flex flex-col w-11/12 items-end relative justify-between h-full">
               <div class="titre flex flex-col w-12/12 mx-auto lg:absolute lg:-top-52 -mt-12 mb-12 lg:mb-0 lg:-mt-0 text-noir">
-                <h1 class="text-6xl uppercase font-extrabold" id="output">front end</h1>
-                <p class=" text-6xl font-semibold font-voyage" id="projet"> <span></span> developer</p>
+                <h1 class="lg:text-6xl uppercase font-extrabold text-4xl" id="output">front end</h1>
+                <p class=" lg:text-6xl font-semibold font-voyage text-primary text-4xl" id="projet"> <span></span> developer</p>
               </div>
               <div class="content flex items-start text-right border-r-[1px] border-noir pr-4 w-4/5 text-lg mb-8 lg:mb-0">
                 <p class="text-gris lg:font-semibold">Realization of an Asian food website, including several pages, such as the home page, a blog or even a page on the history of the brand.</p>
@@ -125,10 +126,10 @@
           </div>
           <div class="droite mt-8 lg:0 lg:w-[40%] mx-auto flex flex-col justify-center">
             <div class="w-full mx-auto h-3/4 flex flex-col justify-around">
-              <div class="titre fade-in-right text-left text-5xl text-noir w-11/12 mx-auto flex flex-col">
+              <div class="titre fade-in-right text-left text-3xl lg:text-5xl text-noir w-11/12 mx-auto flex flex-col">
                 <h1 class="font-staff uppercase">marketing</h1>
-                <h1 class="font-voyage">Web Development </h1>
-                <h1 class="font-staff uppercase">design creation</h1>
+                <h1 class="font-voyage text-primary">Web Development </h1>
+                <h1 class="font-staff uppercase mt-2">design creation</h1>
               </div>
               <div class="content fade-in-right w-11/12  mt-8 lg:mt-0 mx-auto flex flex-col text-left text-gris font-semibold">
                 <p class="w-3/4">Realization of the model, graphic charter, marketing strategy, and the entire site, front-end and back-end.</p>

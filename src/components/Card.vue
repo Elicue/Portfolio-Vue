@@ -1,5 +1,5 @@
 <template>
-  <div class="border-noir border-[1px] text-noir flex flex-col justify-between items-start py-8 w-11/12">
+  <div class="border-noir border-[1px] text-noir flex flex-col justify-between items-start py-8 w-11/12 bg-white">
     <div class="titre flex w-11/12 mx-auto">
       <h1 class="uppercase font-bold">{{ titre }}</h1>
     </div>
