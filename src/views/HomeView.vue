@@ -177,7 +177,7 @@
                     </div>
                     <div class="skills grid lg:grid-cols-4 gap-4 grid-cols-2 lg:w-3/5 justify-between">
                       <Skill titre="figma" href="https://help.figma.com/hc/fr" url="/images/figma-logo.svg" skill="figma"/>
-                      <Skill titre="Xd" href="https://helpx.adobe.com/fr/xd/help/cloud-documents.html" url="/images/Xd-logo.svg" skill="Xd"/>
+                      <Skill titre="Xd" href="https://helpx.adobe.com/fr/xd/help/cloud-documents.html" url="/images/xd-logo.svg" skill="Xd"/>
                       <Skill titre="Illustrator" href="https://helpx.adobe.com/fr/illustrator/user-guide.html" url="/images/ai-logo.png" skill="Illustrator"/>
                       <Skill titre="framer" href="https://www.framer.com/motion/" url="/images/framer-logo.png" skill="framer"/>
                     </div>
@@ -187,7 +187,7 @@
                       <Skill titre="php" href="https://www.php.net/docs.php" url="/images/php-logo.svg" skill="php"/>
                       <Skill titre="vue" href="https://vuejs.org/guide/introduction.html" url="/images/vue-logo.png" skill="vue"/>
                       <Skill titre="MySQL" href="https://dev.mysql.com/doc/" url="/images/MySQL-logo.png" skill="MySQL"/>
-                      <Skill titre="git" href="https://git-scm.com/docæ" url="/images/git-logo.png" skill="git"/>
+                      <Skill titre="git" href="https://git-scm.com/docæ" url="/images/Git-logo.png" skill="git"/>
                     </div>
                     <div class="lg:w-2/5 flex flex-row items-center lg:my-0 my-8">
                       <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Or backend languages and software, such as php and sql, or Vue.js.</p>
