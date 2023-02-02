@@ -30,8 +30,8 @@
           <router-link to="/"><p class="uppercase font-semibold text-xs lg:text-base">about me</p></router-link>
           <span class="w-6 h-[1px] bg-noir"></span>
           <router-link to="/ProjectsView"><p class="uppercase font-semibold text-xs lg:text-base">my projects</p></router-link>
-          <!-- <span class="w-6 h-[1px] bg-noir"></span> -->
-          <!-- <router-link to="/ContactViews"><p class="uppercase font-semibold text-xs lg:text-base">contact me</p></router-link> -->
+          <span class="w-6 h-[1px] bg-noir"></span>
+          <router-link to="/ContactViews"><p class="uppercase font-semibold text-xs lg:text-base">contact me</p></router-link>
         </div>
         <div class="bwp lg:w-1/3 text-left menu mt-8 lg:mt-0 ">
           <p class="uppercase tracking-wider">build with passion @ 2023</p>

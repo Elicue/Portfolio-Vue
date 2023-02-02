@@ -76,8 +76,8 @@
           </div>
           <div class="card lg:w-[55vh] border-[1.5px] border-noir h-full text-noir">
             <div class="image items-center flex flex-col relative justify-end h-[65vh]">
-              <img loading="lazy" class="border-b-[1px] w-11/12 border-noir grayscale hover:grayscale-0 hover:scale-105 transition-all" width="400" height="auto" src="images/mwa.webp" alt="moi">
-              <div class="flou absolute bg-white bg-opacity-50 backdrop-blur-md w-10/12 bottom-8 h-[13vh] py-3 flex flex-row items-start justify-between">
+              <img loading="lazy" class="border-b-[1px] w-11/12 border-noir grayscale hover:grayscale-0 hover:scale-105 transition-all" width="400" height="auto" src="images/mwa.png" alt="moi">
+              <div class="flou absolute bg-white bg-opacity-50 backdrop-blur-md w-10/12 bottom-8 h-[13vh] py-3 pl-6 flex flex-row items-start justify-between">
                 <div class="titre w-11/12 mx-auto flex flex-col justify-between h-full">
                   <h3 class="text-lg font-bold">See my projects</h3>
                   <h3 class="text-base">( Work in progress )</h3>

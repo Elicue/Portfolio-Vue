@@ -13,7 +13,7 @@
       <nav>
         <router-link to="/"><ion-icon class=" mr-4 lg:mr-8 lg:w-8 lg:h-8 w-6 h-6 fill-black" name="person-outline"></ion-icon></router-link>
         <router-link to="/projects"><ion-icon class=" mr-4 lg:mr-8 lg:w-8 lg:h-8 w-6 h-6 fill-black" name="desktop-outline"></ion-icon></router-link>
-        <!-- <router-link to="/contact"><ion-icon class="lg:w-8 lg:h-8 w-6 h-6 fill-black" name="call-outline"></ion-icon></router-link> -->
+        <router-link to="/contact"><ion-icon class="lg:w-8 lg:h-8 w-6 h-6 fill-black" name="call-outline"></ion-icon></router-link>
       </nav>
       </div>
     </div>

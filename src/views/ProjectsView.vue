@@ -61,7 +61,7 @@
         </div>
         <div class="w-full mb-[15vh] lg:h-[65vh] flex flex-col lg:flex-row items-center relative">
           <div class="lg:w-1/2">
-            <ProjectCard2 titre="AVENUE DE CAMOËNS" sousTitre="projet scss" desc="Project in progress, with the aim of improving our grid and scss capabilities. The goal was to make a page talking about a place in Paris, its location and its history." maquette="maquettes/Avenue de Camoëns.xd" github="https://github.com/Elicue/Avenue-de-Camoens" />
+            <ProjectCard2 titre="AVENUE DE CAMOËNS" sousTitre="scss project" desc="Project in progress, with the aim of improving our grid and scss capabilities. The goal was to make a page talking about a place in Paris, its location and its history." maquette="maquettes/Avenue de Camoëns.xd" github="https://github.com/Elicue/Avenue-de-Camoens" />
           </div>
           <div class="lg:w-1/2">
             <Card class="w-11/12 mx-auto" titre="home page" url="images/sass-side.png" desc="avenue de camöens"/>
@@ -73,13 +73,13 @@
             <Card class="w-11/12 mx-auto" titre="home page" url="images/jadoo-side.png" desc="site de voyage"/>
           </div>
           <div class="lg:w-1/2">
-            <ProjectCard titre="INTÉGRATION" sousTitre="de maquette" desc="Integration of a model in order to improve my front-end capacities, in particular positions and displays." maquette="maquettes/Travel.fig" github="https://github.com/Elicue/JADOO"/>
+            <ProjectCard titre="journey template" sousTitre="integration" desc="Integration of a model in order to improve my front-end capacities, in particular positions and displays." maquette="maquettes/Travel.fig" github="https://github.com/Elicue/JADOO"/>
           </div>
           <Circles/>
         </div>
         <div class="w-full mb-[15vh] lg:h-[65vh] flex flex-col lg:flex-row items-center relative">
           <div class="lg:w-1/2">
-            <ProjectCard2 titre="site de streaming" sousTitre="devlab" desc="Project carried out at school, aiming to create a streaming platform, thanks to 'The MovieDB', a database of films and series created by the community. project in collaboration with" name=" Arthur Prud'homme" coop="https://github.com/Arthur-Prudhomme" maquette="https://www.figma.com/file/SeOYP71T6NuSVTvXMOmpBY/Devlab?node-id=0%3A1&t=1MCpeBsXvkH1HtJo-0" github="https://github.com/Arthur-Prudhomme/Devlab" />
+            <ProjectCard2 titre="streaming website" sousTitre="devlab" desc="Project carried out at school, aiming to create a streaming platform, thanks to 'The MovieDB', a database of films and series created by the community. project in collaboration with" name=" Arthur Prud'homme" coop="https://github.com/Arthur-Prudhomme" maquette="https://www.figma.com/file/SeOYP71T6NuSVTvXMOmpBY/Devlab?node-id=0%3A1&t=1MCpeBsXvkH1HtJo-0" github="https://github.com/Arthur-Prudhomme/Devlab" />
           </div>
           <div  class="lg:w-1/2">
             <Card class="w-11/12 mx-auto" titre="home page" url="images/devlab-side.png" desc="site de streaming"/>
@@ -88,7 +88,7 @@
         </div>
         <div class="w-full mb-[15vh] lg:h-[65vh] flex flex-col lg:flex-row items-center relative">
           <div  class="lg:w-1/2">
-            <Card class="w-11/12 mx-auto" titre="ecologica" url="images/bap-side.png" desc="site présentation"/>
+            <Card class="w-11/12 mx-auto" titre="ecologica" url="images/bap-side.png" desc="website presentation"/>
           </div>
           <div class="lg:w-1/2">
             <ProjectCard titre="présentation" sousTitre="ecologica" desc="This is a partial redesign of the Ecologica higher education school website. Our redesign includes the application page, the Ecologica page and the form page. This was done as part of a 2nd year project at IIM, with" name=" Arthur Prud'homme," name2=" Théa Blachon," name3="Pierre-louis Sans." maquette="https://www.figma.com/file/ZnngDx1YN8zLqOCcDPKc2t/BAP%2Fperso?node-id=0%3A1&t=uMd5efEBABi9xQrD-0" github="https://github.com/EthraDev/site_static_ecologica" coop="https://github.com/Arthur-Prudhomme" coop2="https://github.com/EthraDev" coop3="https://github.com/Pl83"/>
