@@ -184,8 +184,8 @@
                   </div>
                   <div class="third lg:h-[20vh] mb-[10vh] flex flex-col lg:flex-row">
                     <div class="skills grid lg:grid-cols-4 gap-4 grid-cols-2 lg:w-3/5 justify-between">
-                      <Skill titre="php" href="https://www.php.net/docs.php" url="/images/php-logo.svg" skill="php"/>
                       <Skill titre="vue" href="https://vuejs.org/guide/introduction.html" url="/images/vue-logo.png" skill="vue"/>
+                      <Skill titre="php" href="https://www.php.net/docs.php" url="/images/php-logo.svg" skill="php"/>
                       <Skill titre="MySQL" href="https://dev.mysql.com/doc/" url="/images/MySQL-logo.png" skill="MySQL"/>
                       <Skill titre="git" href="https://git-scm.com/docæ" url="/images/Git-logo.png" skill="git"/>
                     </div>
