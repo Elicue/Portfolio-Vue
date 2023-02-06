@@ -168,7 +168,7 @@
                       <Skill titre="js" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" url="/images/js-logo.svg" skill="js"/>
                     </div>
                     <div class="lg:w-2/5 flex flex-row items-center lg:my-0 my-8">
-                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Thanks to school and my personal investment, I have developed skills in certain areas of web development, such as certain languages and front-end software, such as html, css, js, sass, or even tailwind;</p>
+                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Thanks to school and my personal investment, I have developed skills in certain areas of web development, such as certain languages and front-end software, such as html, css, js, sass, Vue.js, or even tailwind;</p>
                     </div>
                   </div>
                   <div class="second lg:h-[20vh] mb-[10vh] flex flex-col lg:flex-row">
@@ -190,7 +190,7 @@
                       <Skill titre="git" href="https://git-scm.com/docæ" url="/images/Git-logo.png" skill="git"/>
                     </div>
                     <div class="lg:w-2/5 flex flex-row items-center lg:my-0 my-8">
-                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Or backend languages and software, such as php and sql, or Vue.js.</p>
+                      <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Or backend languages and software, such as php and sql.</p>
                     </div>
                   </div>
                 </div>
