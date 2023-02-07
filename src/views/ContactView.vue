@@ -39,8 +39,8 @@
           <h3 class="uppercase text-5xl">into reality</h3>
         </div>
         <div class="cta justify-between w-7/12 mx-auto flex flex-row">
-          <ButtonTransparent titre="creative ideas"/>
-          <ButtonTransparent titre="clean design"/>
+          <AnimBtnContact titre="creative ideas"/>
+          <AnimBtnContact titre="clean design"/>
         </div>
         <div class="txt w-8/12 flex">
           <p>
@@ -99,7 +99,8 @@
 <script>
 import CardSlider from "@/components/CardSlider.vue";
 import Footer from "@/components/Footer.vue";
-import ButtonTransparent from "@/components/ButtonTransparent.vue";
+// import ButtonTransparent from "@/components/ButtonTransparent.vue";
+import AnimBtnContact from "@/components/AnimBtnContact.vue";
 // import InputForm from "@/components/InputForm.vue";
 
   export default {
@@ -130,11 +131,11 @@ import ButtonTransparent from "@/components/ButtonTransparent.vue";
     },
 
     components : {
-      CardSlider,
-      Footer,
-      ButtonTransparent,
-      // InputForm
-    }
+    CardSlider,
+    Footer,
+    // ButtonTransparent,
+    AnimBtnContact
+}
   }
 
 </script>
