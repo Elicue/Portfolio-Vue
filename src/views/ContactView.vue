@@ -1,11 +1,11 @@
 <template >
   <div class="w-11/12 mx-auto mt-[15vh]">
-    <div class="top flex flex-row h-[70vh]">
-      <div class="left w-1/2 h-[60vh]">
+    <div class="top flex lg:flex-row flex-col lg:h-[70vh]">
+      <div class="left lg:w-1/2 h-[60vh]">
         <div class="titre">
           <h1 class="uppercase font-bold font-staff tracking-wider lg:text-6xl text-3xl">contact <span class=" font-voyage lowercase text-primary">me</span></h1>
         </div>
-        <div class="flex items-center justify-center w-11/12 h-full py-24 sm:py-8 px-4">
+        <div class="flex items-center justify-center w-11/12 h-full lg:py-24 lg:pb-0 pb-12 sm:py-8 px-4">
           <div class="w-full relative flex items-center justify-center">
               <button aria-label="slide backward" class="absolute z-[90] left-0 ml-5 focus:outline-none" id="prev">
                   <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,28 +32,28 @@
           </div>
         </div>
       </div>
-      <div class="right h-[60vh] fade-in-right w-1/2 items-center justify-between flex flex-col">
+      <div class="right lg:h-[60vh] fade-in-right lg:w-1/2 items-center justify-between flex flex-col">
         <div class="titre flex flex-col items-center">
-          <h3 class="uppercase text-5xl">turn your</h3>
-          <p class="flex flex-row items-center font-voyage text-5xl text-primary"><span class="w-6 h-[1px] bg-noir flex mx-4"></span>ideas<span class=" mx-4 w-6 h-[1px] bg-noir flex"></span></p>
-          <h3 class="uppercase text-5xl">into reality</h3>
+          <h3 class="uppercase text-3xl lg:text-5xl">turn your</h3>
+          <p class="flex flex-row items-center font-voyage text-4xl lg:text-5xl text-primary"><span class="w-6 h-[1px] bg-noir flex mx-4"></span>ideas<span class=" mx-4 w-6 h-[1px] bg-noir flex"></span></p>
+          <h3 class="uppercase text-3xl lg:text-5xl">into reality</h3>
         </div>
-        <div class="cta justify-between w-7/12 mx-auto flex flex-row">
+        <div class="cta justify-between lg:w-7/12 w-11/12 mx-auto mt-8 lg:mt-0 flex flex-row">
           <AnimBtnContact titre="creative ideas"/>
           <AnimBtnContact titre="clean design"/>
         </div>
-        <div class="txt w-8/12 flex">
-          <p>
+        <div class="txt lg:w-8/12 w-11/12 mx-auto mt-8 lg:mt-0 flex">
+          <p class="lg:text-base text-sm">
              Student in Front-End for 2 years, I was first attracted by Creation and Art, but in high school I discovered a passion for web development. I was drawn to the magic of web development, and since then my love for the front-end and creating beautiful interfaces has only grown. I now take more and more pleasure in coding and developing sites.
           </p>
         </div>
       </div>
     </div>
 
-    <div class="form fade-in-bottom relative">
-      <div class="titre mb-[10vh]">
-        <h3 class="uppercase text-5xl">love to hear from you,</h3>
-        <h3 class="font-voyage text-5xl text-primary">get in touch</h3>
+    <div class="form fade-in-bottom relative ">
+      <div class="titre mb-[10vh] lg:mt-0 mt-12">
+        <h3 class="uppercase text-3xl lg:text-5xl">love to hear from you,</h3>
+        <h3 class="font-voyage text-4xl lg:text-5xl text-primary">get in touch</h3>
       </div>
       <div class="absolute hidden justify-end w-7/12 flex top-[10vh]">
         <svg class="rotate-[50deg]" width="200" height="200" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">

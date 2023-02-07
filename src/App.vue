@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed w-screen top-0 left-0 flex bg-white bg-opacity-50 backdrop-blur-md z-50 h-[8vh] text-noir">
+  <header class="fixed w-screen top-0 left-0 flex bg-white bg-opacity-50 backdrop-blur-md z-[90] h-[8vh] text-noir">
     <div class="content flex flex-row justify-between items-center w-11/12 mx-auto border-b-[1px] border-black ">
       <div class="logo lg:w-1/3">
         <router-link to="/"><img class="lg:w-16 w-8" src="/favicon.svg" alt="logo"></router-link>
