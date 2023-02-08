@@ -3,7 +3,7 @@
     <div class="border-t-[1px] border-noir w-11/12 mx-auto h-full justify-between flex flex-col">
       <div class="haut flex flex-col items-left text-left justify-around lg:h-[30vh] mt-8">
           <div class="titre">
-            <h3 class="uppercase text-5xl font-bold">contact me</h3>
+            <h3 class="uppercase font-staff text-5xl font-bold">contact me</h3>
           </div>
           <div class="infos flex lg:flex-row flex-col w-full mt-8 lg:mt-0">
             <div class="content lg:w-2/5 ">

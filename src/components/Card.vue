@@ -4,7 +4,7 @@
       <h1 class="uppercase font-bold">{{ titre }}</h1>
     </div>
     <div class="image flex w-11/12 mx-auto my-6">
-      <img loading="lazy" class="w-full grayscale hover:grayscale-0 transition-all hover:scale-105" :src="url" alt="projet">
+      <img loading="lazy" class="w-full lg:grayscale hover:grayscale-0 transition-all hover:scale-105" :src="url" alt="projet">
     </div>
     <div class="desc flex w-11/12 mx-auto">
       <div class="left flex flex-col items-start">

@@ -4,7 +4,7 @@
       <h3 class="uppercase font-bold">{{ titre }}</h3>
     </div>
     <div class="content lg:w-11/12 mx-auto h-1/2 justify-center flex my-4">
-      <img class="w-1/2 h-auto grayscale hover:grayscale-0 hover:scale-105" loading="lazy" :src="url" alt="logo">
+      <img class="w-1/2 h-auto lg:grayscale hover:grayscale-0 hover:scale-105" loading="lazy" :src="url" alt="logo">
     </div>
     <div class="desc lg:w-11/12 mx-auto h-1/4 ">
       <p>What's <a :href="href"><button class="underline underline-offset-4">{{ skill }}</button></a> ?</p>    
