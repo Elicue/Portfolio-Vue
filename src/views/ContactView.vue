@@ -1,4 +1,5 @@
 <template >
+  <ScrollBar/>
   <div class="w-11/12 mx-auto mt-[15vh]">
     <div class="top flex lg:flex-row flex-col lg:h-[70vh]">
       <div class="left lg:w-1/2 h-[60vh]">
@@ -99,9 +100,8 @@
 <script>
 import CardSlider from "@/components/CardSlider.vue";
 import Footer from "@/components/Footer.vue";
-// import ButtonTransparent from "@/components/ButtonTransparent.vue";
 import AnimBtnContact from "@/components/AnimBtnContact.vue";
-// import InputForm from "@/components/InputForm.vue";
+import ScrollBar from "@/components/ScrollBar.vue";
 
   export default {
     name: 'ContactView',
@@ -131,10 +131,10 @@ import AnimBtnContact from "@/components/AnimBtnContact.vue";
     },
 
     components : {
-    CardSlider,
-    Footer,
-    // ButtonTransparent,
-    AnimBtnContact
+      CardSlider,
+      Footer,
+      AnimBtnContact,
+      ScrollBar,
 }
   }
 

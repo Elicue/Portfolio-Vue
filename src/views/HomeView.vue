@@ -1,4 +1,5 @@
 <template>
+  <ScrollBar/>
   <div class="home w-full lg:mt-[15vh] mt-20">
     <div class="top w-full">
       <div class="top w-11/12 mx-auto h-full">
@@ -69,12 +70,12 @@
             </div>
           </div>
           <div class="img fade-in lg:w-2/3 w-full lg:flex hidden flex-col justify-end items-end h-[80vh] relative">
-          <div class="logo w-32 h-32 lg:flex hidden absolute top-8 left-64 -rotate-12">
-            <img loading="lazy" class="absolute w-32 h-32" src="images/logo-centre.svg" alt="logo"> 
-            <img loading="lazy" class="logo-t-p absolute w-32 h-32" src="images/logo-contour.svg" alt="logo"> 
-            <div class="fond w-32 h-32 bg-white rounded-full"></div>
-          </div>
-          <div class="card lg:w-[55vh] border-[1.5px] border-noir h-full text-noir">
+            <div class="logo w-[15vh] h-[15vh] lg:flex hidden absolute top-8 left-[32vh] -rotate-12">
+              <img loading="lazy" class="absolute w-[15vh] h-[15vh]" src="images/logo-centre.svg" alt="logo"> 
+              <img loading="lazy" class="logo-t-p absolute w-[15vh] h-[15vh]" src="images/logo-contour.svg" alt="logo"> 
+              <div class="fond w-[15vh] h-[15vh] bg-white rounded-full"></div>
+            </div>
+            <div class="card lg:w-[55vh] border-[1.5px] border-noir h-full text-noir">
             <div class="image items-center flex flex-col relative justify-end h-[65vh]">
               <img loading="lazy" class="border-b-[1px] w-11/12 border-noir grayscale hover:grayscale-0 hover:scale-105 transition-all" width="400" height="auto" src="images/mwa.png" alt="moi">
               <div class="flou absolute bg-white bg-opacity-50 backdrop-blur-md w-10/12 bottom-8 h-[13vh] py-3 pl-6 flex flex-row items-start justify-between">
@@ -242,6 +243,7 @@
   import Skill from '@/components/Skill.vue';
   import Footer from '@/components/Footer.vue';
   import Button from '@/components/Button.vue';
+  import ScrollBar from '@/components/ScrollBar.vue';
 
 
   export default {
@@ -253,6 +255,7 @@
       Skill,
       Footer,
       Button,
+      ScrollBar
     },
   }
 </script>

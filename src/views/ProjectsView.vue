@@ -1,4 +1,5 @@
 <template>
+  <ScrollBar/>
   <div class="projects w-full lg:mt-[15vh] mt-[10vh] overflow-hidden">
     <main class="w-11/12 mx-auto">
       <div class="haut flex flex-row w-full lg:h-[70vh]">
@@ -113,6 +114,7 @@
   import ProjectCard2 from '@/components/ProjectCard2.vue';
   import Circles from '@/components/Circles.vue';
   import Circles2 from '@/components/Circles2.vue';
+  import ScrollBar from '@/components/ScrollBar.vue';
 
   export default {
 
@@ -128,6 +130,7 @@
       ProjectCard2,
       Circles,
       Circles2,
+      ScrollBar
     },
   }
 </script>
