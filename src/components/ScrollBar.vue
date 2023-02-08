@@ -1,8 +1,8 @@
 <template>
-  <div class="scroll">
-    <div class="barre">
-      <div id="scrollPath"></div>
-      <div id="progressBar"></div>
+  <div class="scroll hidden lg:flex fixed top-[25%] right-[1.5%]">
+    <div class="barre border-[1px] border-noir h-[55vh] rounded-full w-[1.7vh] bg-white">
+      <div id="scrollPath" class="h-full block rounded-full absolute w-full"></div>
+      <div id="progressBar" class="h-0 bg-primary block rounded-full w-full -z-10"></div>
     </div>
   </div>
   
@@ -38,36 +38,6 @@
 
   ::-webkit-scrollbar {
     width: 0;
-  }
-
-  .scroll {
-    position: fixed;
-    top: 25%;
-    right: 1.5%;
-  }
-    
-  .scroll .barre {
-    border: 1.5px #191919 solid;
-    height: 500px;
-    border-radius: 50px;
-    width: 15px;
-  }
-
-  .scroll .barre #scrollPath {
-    height: 100%;
-    display: block;
-    border-radius: 50px;
-    position: absolute;
-    width: 15px;
-  }
-
-  .scroll .barre #progressBar {
-    height: 0;
-    background-color: #a5334a;
-    display: block;
-    border-radius: 50px;
-    width: 99.5%;
-    z-index: -1;
   }
 
   .scroll .barre #progressBar::before {
