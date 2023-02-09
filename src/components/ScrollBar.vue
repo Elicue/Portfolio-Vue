@@ -2,7 +2,7 @@
   <div class="scroll hidden lg:flex fixed top-[25%] right-[1.5%]">
     <div class="barre border-[1px] border-noir h-[55vh] rounded-full w-[1.7vh] bg-white">
       <div id="scrollPath" class="h-full block rounded-full absolute w-full"></div>
-      <div id="progressBar" class="h-0 bg-primary block rounded-full w-full -z-10"></div>
+      <div id="progressBar" class="h-0 bg-primary block rounded-full w-full -z-10 before:content-[''] before:h-full after:content-[''] after:h-full"></div>
     </div>
   </div>
   
@@ -38,18 +38,6 @@
 
   ::-webkit-scrollbar {
     width: 0;
-  }
-
-  .scroll .barre #progressBar::before {
-    content: "";
-    height: 100%;
-    background-color: #a5334a;
-  }
-
-  .scroll .barre #progressBar::after {
-    content: "";
-    height: 100%;
-    background-color: #a5334a;
   }
 
 </style>

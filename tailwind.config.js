@@ -7,7 +7,7 @@ module.exports = {
         gris:'#808080',
         noir:'#191919',
         primary:'#a5334a',
-      }
+      },
     },
 
     fontFamily: {

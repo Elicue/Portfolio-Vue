@@ -7,7 +7,7 @@
           <div class="ecrit lg:w-1/2 w-full flex flex-col items-start justify-between lg:h-[80vh] h-[50vh]">
             <div class="titre lg:text-5xl text-noir justify-between lg:h-[20vh]">
               <div class="flex flex-row relative">
-                <h2 class="flex flex-row uppercase font-bold font-staff tracking-wider lg:text-6xl text-3xl">welc
+                <h2 class="flex flex-row uppercase font-bold font-staff tracking-wider lg:text-6xl text-3xl relative">welc
                   <div class="relative">
                     o
                     <svg class=" absolute lg:flex -left-[80%] -top-7 rounded-full hidden" xmlns="http://www.w3.org/2000/svg" version="1.1" width="120px" height="120px">
@@ -20,18 +20,21 @@
                       <circle cx="60" cy="60" r="50" stroke-linecap="round" />
                     </svg>
                   </div>
-                  me to my</h2>
-                <svg width="70" height="79" class="lg:flex absolute hidden right-[26%] top-5 rotate-[20deg]" viewBox="0 0 100 99" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g clip-path="url(#clip0_7_692)">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M33.9842 3.52762C63.5826 22.879 65.802 58.5118 55.5267 89.875C55.3512 90.4141 55.6447 90.9961 56.1837 91.1716C56.7227 91.347 57.3046 91.0536 57.4801 90.5146C68.045 58.2736 65.5354 21.7 35.1074 1.80701C34.634 1.49614 33.9974 1.62994 33.6855 2.1057C33.3746 2.57911 33.5084 3.21566 33.9842 3.52762Z" fill="#191919"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M56.6967 89.6063C56.3425 87.8356 55.9224 85.6084 55.8674 85.357C54.3759 78.5454 51.9076 72.3302 48.4457 66.2606C48.1653 65.7676 47.5359 65.596 47.0429 65.8764C46.5499 66.1568 46.3784 66.7862 46.6587 67.2791C50.0177 73.1638 52.4131 79.1908 53.859 85.7984C53.9436 86.1835 54.8847 91.1908 55.1511 92.189C55.2584 92.5989 55.4466 92.7975 55.4954 92.8402C55.7461 93.0764 56.0063 93.1256 56.2128 93.1241C56.446 93.1206 56.8295 93.0211 57.1757 92.6441C57.5364 92.2482 58.08 91.2479 58.2377 91.0065C60.6258 87.3707 62.9744 83.1048 65.9446 79.6072C68.7769 76.2716 72.1786 73.6316 76.8038 73.0707C77.3669 73.0029 77.7682 72.4886 77.7004 71.9254C77.6327 71.3623 77.1183 70.9609 76.5552 71.0287C71.3843 71.6568 67.5431 74.5479 64.3779 78.2752C61.4256 81.7525 59.0674 85.9653 56.6967 89.6063Z" fill="#191919"/>
-                  </g>
-                  <defs>
-                  <clipPath id="clip0_7_692">
-                  <rect width="74.4193" height="74.4193" fill="white" transform="translate(0.63916 67.5209) rotate(-65.1354)"/>
-                  </clipPath>
-                  </defs>
-                </svg>
+                  me to my
+                
+                  <svg width="70" height="79" class="lg:flex absolute hidden right-[12vh] top-5 rotate-[20deg]" viewBox="0 0 100 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_7_692)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.9842 3.52762C63.5826 22.879 65.802 58.5118 55.5267 89.875C55.3512 90.4141 55.6447 90.9961 56.1837 91.1716C56.7227 91.347 57.3046 91.0536 57.4801 90.5146C68.045 58.2736 65.5354 21.7 35.1074 1.80701C34.634 1.49614 33.9974 1.62994 33.6855 2.1057C33.3746 2.57911 33.5084 3.21566 33.9842 3.52762Z" fill="#191919"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M56.6967 89.6063C56.3425 87.8356 55.9224 85.6084 55.8674 85.357C54.3759 78.5454 51.9076 72.3302 48.4457 66.2606C48.1653 65.7676 47.5359 65.596 47.0429 65.8764C46.5499 66.1568 46.3784 66.7862 46.6587 67.2791C50.0177 73.1638 52.4131 79.1908 53.859 85.7984C53.9436 86.1835 54.8847 91.1908 55.1511 92.189C55.2584 92.5989 55.4466 92.7975 55.4954 92.8402C55.7461 93.0764 56.0063 93.1256 56.2128 93.1241C56.446 93.1206 56.8295 93.0211 57.1757 92.6441C57.5364 92.2482 58.08 91.2479 58.2377 91.0065C60.6258 87.3707 62.9744 83.1048 65.9446 79.6072C68.7769 76.2716 72.1786 73.6316 76.8038 73.0707C77.3669 73.0029 77.7682 72.4886 77.7004 71.9254C77.6327 71.3623 77.1183 70.9609 76.5552 71.0287C71.3843 71.6568 67.5431 74.5479 64.3779 78.2752C61.4256 81.7525 59.0674 85.9653 56.6967 89.6063Z" fill="#191919"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_7_692">
+                    <rect width="74.4193" height="74.4193" fill="white" transform="translate(0.63916 67.5209) rotate(-65.1354)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+
+                </h2>
               </div>
               <div class="flex flex-row text-center items-center lg:mt-8 mt-2">
                 <h2 class=" uppercase text-staff italic lg:text-6xl text-3xl">web</h2>
@@ -42,18 +45,19 @@
                 </div>
               </div>
               <div class="flex flex-row justify-end lg:mt-8 mt-2 relative">
-                <h2 class="font-voyage text-primary uppercase font-bold lg:text-6xl text-4xl">portfolio</h2>
-                <svg width="70" height="79" class="absolute lg:flex hidden right-[34%] bottom-[2vh] rotate-[210deg]" viewBox="0 0 100 99" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g clip-path="url(#clip0_7_692)">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M33.9842 3.52762C63.5826 22.879 65.802 58.5118 55.5267 89.875C55.3512 90.4141 55.6447 90.9961 56.1837 91.1716C56.7227 91.347 57.3046 91.0536 57.4801 90.5146C68.045 58.2736 65.5354 21.7 35.1074 1.80701C34.634 1.49614 33.9974 1.62994 33.6855 2.1057C33.3746 2.57911 33.5084 3.21566 33.9842 3.52762Z" fill="#797773"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M56.6967 89.6063C56.3425 87.8356 55.9224 85.6084 55.8674 85.357C54.3759 78.5454 51.9076 72.3302 48.4457 66.2606C48.1653 65.7676 47.5359 65.596 47.0429 65.8764C46.5499 66.1568 46.3784 66.7862 46.6587 67.2791C50.0177 73.1638 52.4131 79.1908 53.859 85.7984C53.9436 86.1835 54.8847 91.1908 55.1511 92.189C55.2584 92.5989 55.4466 92.7975 55.4954 92.8402C55.7461 93.0764 56.0063 93.1256 56.2128 93.1241C56.446 93.1206 56.8295 93.0211 57.1757 92.6441C57.5364 92.2482 58.08 91.2479 58.2377 91.0065C60.6258 87.3707 62.9744 83.1048 65.9446 79.6072C68.7769 76.2716 72.1786 73.6316 76.8038 73.0707C77.3669 73.0029 77.7682 72.4886 77.7004 71.9254C77.6327 71.3623 77.1183 70.9609 76.5552 71.0287C71.3843 71.6568 67.5431 74.5479 64.3779 78.2752C61.4256 81.7525 59.0674 85.9653 56.6967 89.6063Z" fill="#797773"/>
-                  </g>
-                  <defs>
-                  <clipPath id="clip0_7_692">
-                  <rect width="74.4193" height="74.4193" fill="white" transform="translate(0.63916 67.5209) rotate(-65.1354)"/>
-                  </clipPath>
-                  </defs>
-                </svg>
+                <h2 class="font-voyage text-primary uppercase font-bold lg:text-6xl text-4xl relative">portfolio
+                  <svg width="70" height="79" class="absolute lg:flex hidden right-[8vh] bottom-[2vh] rotate-[210deg]" viewBox="0 0 100 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_7_692)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.9842 3.52762C63.5826 22.879 65.802 58.5118 55.5267 89.875C55.3512 90.4141 55.6447 90.9961 56.1837 91.1716C56.7227 91.347 57.3046 91.0536 57.4801 90.5146C68.045 58.2736 65.5354 21.7 35.1074 1.80701C34.634 1.49614 33.9974 1.62994 33.6855 2.1057C33.3746 2.57911 33.5084 3.21566 33.9842 3.52762Z" fill="#797773"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M56.6967 89.6063C56.3425 87.8356 55.9224 85.6084 55.8674 85.357C54.3759 78.5454 51.9076 72.3302 48.4457 66.2606C48.1653 65.7676 47.5359 65.596 47.0429 65.8764C46.5499 66.1568 46.3784 66.7862 46.6587 67.2791C50.0177 73.1638 52.4131 79.1908 53.859 85.7984C53.9436 86.1835 54.8847 91.1908 55.1511 92.189C55.2584 92.5989 55.4466 92.7975 55.4954 92.8402C55.7461 93.0764 56.0063 93.1256 56.2128 93.1241C56.446 93.1206 56.8295 93.0211 57.1757 92.6441C57.5364 92.2482 58.08 91.2479 58.2377 91.0065C60.6258 87.3707 62.9744 83.1048 65.9446 79.6072C68.7769 76.2716 72.1786 73.6316 76.8038 73.0707C77.3669 73.0029 77.7682 72.4886 77.7004 71.9254C77.6327 71.3623 77.1183 70.9609 76.5552 71.0287C71.3843 71.6568 67.5431 74.5479 64.3779 78.2752C61.4256 81.7525 59.0674 85.9653 56.6967 89.6063Z" fill="#797773"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_7_692">
+                    <rect width="74.4193" height="74.4193" fill="white" transform="translate(0.63916 67.5209) rotate(-65.1354)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                </h2>
               </div>
             </div>
             <div class="content w-3/4 border-l-[1.5px] border-gris lg:mt-8 -mt-12 text-left lg:pl-8 pl-4 text-gris lg:text-lg text-sm lg:font-semibold flex flex-col">
@@ -61,7 +65,6 @@
             </div>
             <div class="cta -my-8">
               <Button titre="my projects" href="projects"/>
-              <!-- <Button titre="contact me" href="contact.html"/> -->
             </div>
             <div class="arrow">
               <a href="#ref">
@@ -77,7 +80,7 @@
             </div>
             <div class="card lg:w-[55vh] border-[1.5px] border-noir h-full text-noir">
             <div class="image items-center flex flex-col relative justify-end h-[65vh]">
-              <img loading="lazy" class="border-b-[1px] w-11/12 border-noir grayscale hover:grayscale-0 hover:scale-105 transition-all" width="400" height="auto" src="images/mwa.png" alt="moi">
+              <img loading="lazy" class="border-b-[1px] border-noir w-11/12 grayscale hover:grayscale-0 hover:scale-105 transition-all" width="400" height="auto" src="images/mwa.png" alt="moi">
               <div class="flou absolute bg-white bg-opacity-50 backdrop-blur-md w-10/12 bottom-8 h-[13vh] py-3 pl-6 flex flex-row items-start justify-between">
                 <div class="titre w-11/12 mx-auto flex flex-col justify-between h-full">
                   <h3 class="text-lg font-bold">See my projects</h3>
