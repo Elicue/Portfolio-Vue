@@ -1,5 +1,6 @@
 <template>
   <ScrollBar/>
+  <Header titre="about me"/>
   <div class="home w-full lg:mt-[15vh] mt-20">
     <div class="top w-full">
       <div class="top w-11/12 mx-auto h-full">
@@ -247,6 +248,7 @@
   import Footer from '@/components/Footer.vue';
   import Button from '@/components/Button.vue';
   import ScrollBar from '@/components/ScrollBar.vue';
+  import Header from '@/components/Header.vue';
 
 
   export default {
@@ -258,7 +260,8 @@
       Skill,
       Footer,
       Button,
-      ScrollBar
+      ScrollBar,
+      Header
     },
   }
 </script>

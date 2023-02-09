@@ -1,5 +1,6 @@
 <template >
   <ScrollBar/>
+  <Header titre="contact me"/>
   <div class="w-11/12 mx-auto mt-[15vh]">
     <div class="top flex lg:flex-row flex-col lg:h-[70vh]">
       <div class="left lg:w-1/2 h-[60vh]">
@@ -102,6 +103,7 @@ import CardSlider from "@/components/CardSlider.vue";
 import Footer from "@/components/Footer.vue";
 import AnimBtnContact from "@/components/AnimBtnContact.vue";
 import ScrollBar from "@/components/ScrollBar.vue";
+import Header from "@/components/Header.vue";
 
   export default {
     name: 'ContactView',
@@ -135,6 +137,7 @@ import ScrollBar from "@/components/ScrollBar.vue";
       Footer,
       AnimBtnContact,
       ScrollBar,
+      Header
 }
   }
 
