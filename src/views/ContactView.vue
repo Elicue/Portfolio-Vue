@@ -3,7 +3,7 @@
   <Header titre="contact me"/>
   <div class="w-11/12 mx-auto mt-[15vh]">
     <div class="top flex lg:flex-row flex-col lg:h-[70vh]">
-      <div class="left lg:w-1/2 h-[60vh]">
+      <div class="left lg:w-1/2 h-[50vh]">
         <div class="titre">
           <h1 class="uppercase font-bold font-staff tracking-wider lg:text-6xl text-3xl">contact <span class=" font-voyage lowercase text-primary">me</span></h1>
         </div>

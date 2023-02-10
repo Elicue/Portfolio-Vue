@@ -28,10 +28,12 @@
       <div class="bas flex lg:flex-row flex-col w-full justify-between ">
         <div class="flex flex-row lg:w-1/3 justify-around items-center">
           <router-link to="/"><p class="uppercase font-semibold text-xs lg:text-base">about me</p></router-link>
-          <span class="w-6 h-[1px] bg-noir"></span>
+          <span class="lg:w-6 w-4 h-[1px] bg-noir"></span>
           <router-link to="/projects"><p class="uppercase font-semibold text-xs lg:text-base">my projects</p></router-link>
-          <span class="w-6 h-[1px] bg-noir"></span>
+          <span class="lg:w-6 w-4 h-[1px] bg-noir"></span>
           <router-link to="/contact"><p class="uppercase font-semibold text-xs lg:text-base">contact me</p></router-link>
+          <span class="lg:w-6 w-4 h-[1px] bg-noir"></span>
+          <a href="documents/EHRSAM-LUCIE-CV-FR.pdf" target="_blank" class="uppercase font-semibold text-xs lg:text-base">my cv</a>
         </div>
         <div class="bwp lg:w-1/3 text-left menu mt-8 lg:mt-0 ">
           <p class="uppercase tracking-wider">build with passion @ 2023</p>

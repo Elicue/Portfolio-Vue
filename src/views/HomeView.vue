@@ -5,7 +5,7 @@
     <div class="top w-full">
       <div class="top w-11/12 mx-auto h-full">
         <div class="perso flex lg:flex-row flex-col justify-between w-full">
-          <div class="ecrit lg:w-1/2 w-full flex flex-col items-start justify-between lg:h-[80vh] h-[50vh]">
+          <div class="ecrit fade-in-left lg:w-1/2 w-full flex flex-col items-start justify-between lg:h-[80vh] h-[50vh]">
             <div class="titre lg:text-5xl text-noir justify-between lg:h-[20vh]">
               <div class="flex flex-row relative">
                 <h2 class="flex flex-row uppercase font-bold font-staff tracking-wider lg:text-6xl text-3xl relative">welc
@@ -243,13 +243,12 @@
 </style>
 
 <script>
-  import Card from '@/components/Card.vue';
-  import Skill from '@/components/Skill.vue';
-  import Footer from '@/components/Footer.vue';
-  import Button from '@/components/Button.vue';
-  import ScrollBar from '@/components/ScrollBar.vue';
-  import Header from '@/components/Header.vue';
-
+  import Card from '@/components/Card.vue'
+  import Skill from '@/components/Skill.vue'
+  import Footer from '@/components/Footer.vue'
+  import Button from '@/components/Button.vue'
+  import ScrollBar from '@/components/ScrollBar.vue'
+  import Header from '@/components/Header.vue'
 
   export default {
 
@@ -263,5 +262,20 @@
       ScrollBar,
       Header
     },
+
+    mounted(){
+      let skll = document.querySelector('.skll')
+      skll.classList.add("fade-in");
+
+      (window).scroll(function() {
+
+        if ((this).scrollTop() > 50){  
+            ('#content').addClass("content_fixed");
+        }
+        else{
+            ('#content').removeClass("content_fixed");
+        }
+      }); 
+    }
   }
 </script>
