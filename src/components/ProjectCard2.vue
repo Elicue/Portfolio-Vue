@@ -11,7 +11,7 @@
     <div class="flex flex-row justify-end mt-2 lg:mt-0">
       <div class="cta justify-between flex flex-row lg:w-3/5">
         <a :href="maquette" download><button class="uppercase text-white border-[1px] border-primary bg-primary px-6 py-3 text-sm hover:scale-110 transition-all">download the model</button></a>
-        <a href="github"><button class="uppercase border-[1px] border-noir text-noir bg-transparent px-6 py-3 text-sm hover:scale-110 transition-all">github</button></a>
+        <a :href="github"><button class="uppercase border-[1px] border-noir text-noir bg-transparent px-6 py-3 text-sm hover:scale-110 transition-all">github</button></a>
       </div>
     </div>
   </div>
