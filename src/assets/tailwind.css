@@ -5,7 +5,7 @@
 @layer base {
   @font-face {
     font-family: Voyage;
-    src: url(Fonts/Voyage-Regular.ttf) format('truetype');
+    src: url('Fonts/Voyage-Regular.ttf') format('truetype');
   }
 
   @font-face {

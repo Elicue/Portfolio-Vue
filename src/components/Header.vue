@@ -10,10 +10,13 @@
         <span class="w-3 lg:w-6 h-[1px] bg-black flex"></span>
       </div>
       <div class="menu flex flex-row lg:w-1/3 justify-end">
-      <nav>
-        <router-link to="/"><ion-icon class=" mr-4 lg:mr-8 lg:w-8 lg:h-8 w-6 h-6 fill-black" name="person-outline"></ion-icon></router-link>
-        <router-link to="/projects"><ion-icon class=" mr-4 lg:mr-8 lg:w-8 lg:h-8 w-6 h-6 fill-black" name="desktop-outline"></ion-icon></router-link>
-        <router-link to="/contact"><ion-icon class="lg:w-8 lg:h-8 w-6 h-6 fill-black" name="call-outline"></ion-icon></router-link>
+      <nav class="flex flex-row justify-between w-10/12 font-staff">
+        <!-- <router-link to="/"><ion-icon class=" mr-4 lg:mr-8 lg:w-8 lg:h-8 w-6 h-6 fill-black" name="person-outline"></ion-icon></router-link> -->
+        <!-- <router-link to="/projects"><ion-icon class=" mr-4 lg:mr-8 lg:w-8 lg:h-8 w-6 h-6 fill-black" name="desktop-outline"></ion-icon></router-link>
+        <router-link to="/contact"><ion-icon class="lg:w-8 lg:h-8 w-6 h-6 fill-black" name="call-outline"></ion-icon></router-link> -->
+        <router-link to="/">ABOUT ME</router-link>
+        <router-link to="/projects">MY PROJECTS</router-link>
+        <router-link to="/contact">CONTACT ME</router-link>
       </nav>
       </div>
     </div>

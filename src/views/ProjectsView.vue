@@ -84,18 +84,27 @@
             <ProjectCard2 titre="streaming website" sousTitre="devlab" desc="Project carried out at school, aiming to create a streaming platform, thanks to 'The MovieDB', a database of films and series created by the community. project in collaboration with" name=" Arthur Prud'homme" coop="https://github.com/Arthur-Prudhomme" maquette="/maquettes/Devlab.fig" github="https://github.com/Arthur-Prudhomme/Devlab" />
           </div>
           <div  class="lg:w-1/2">
-            <Card class="w-11/12 mx-auto" titre="home page" url="images/devlab-side.png" desc="site de streaming"/>
+            <Card class="w-11/12 mx-auto" titre="home page" url="images/devlab-side.png" desc="streaming website"/>
           </div>
           <Circles2/>
         </div>
         <div class="w-full mb-[15vh] lg:h-[65vh] flex flex-col lg:flex-row items-center relative">
           <div  class="lg:w-1/2">
-            <Card class="w-11/12 mx-auto" titre="ecologica" url="images/bap-side.png" desc="website presentation"/>
+            <Card class="w-11/12 mx-auto" titre="home page" url="images/gs-side.jpg" desc="accountant website"/>
           </div>
-          <div class="lg:w-1/2">
-            <ProjectCard titre="présentation" sousTitre="ecologica" desc="This is a partial redesign of the Ecologica higher education school website. Our redesign includes the application page, the Ecologica page and the form page. This was done as part of a 2nd year project at IIM, with" name=" Arthur Prud'homme," name2=" Théa Blachon," name3="Pierre-louis Sans." maquette="/maquettes/BAP_perso.fig" github="https://github.com/EthraDev/site_static_ecologica" coop="https://github.com/Arthur-Prudhomme" coop2="https://github.com/EthraDev" coop3="https://github.com/Pl83"/>
+          <div class="lg:w-1/2 ouais">
+            <ProjectCard titre=" TEMPLATE" sousTitre="integration" desc="As part of an internship search, I had the opportunity to do a model integration in HTML/CSS for a digital agency in Paris." github="https://github.com/Elicue/GS-EXPERTISE" />
           </div>
           <Circles/>
+        </div>
+        <div class="w-full mb-[15vh] lg:h-[65vh] flex flex-col lg:flex-row items-center relative">
+          <div class="lg:w-1/2">
+            <ProjectCard2 titre="présentation" sousTitre="ecologica" desc="This is a partial redesign of the Ecologica higher education school website. Our redesign includes the application page, the Ecologica page and the form page. This was done as part of a 2nd year project at IIM, with" name=" Arthur Prud'homme," name2=" Théa Blachon," name3="Pierre-louis Sans." maquette="/maquettes/BAP_perso.fig" github="https://github.com/EthraDev/site_static_ecologica" coop="https://github.com/Arthur-Prudhomme" coop2="https://github.com/EthraDev" coop3="https://github.com/Pl83"/>
+          </div>
+          <div  class="lg:w-1/2">
+            <Card class="w-11/12 mx-auto" titre="ecologica" url="images/bap-side.png" desc="website presentation"/>
+          </div>
+          <Circles2/>
         </div>
       </div>
     </main>
@@ -103,6 +112,14 @@
   </div>
   
 </template>
+
+<style>
+
+  .ouais a:nth-child(1) {
+    display: none;
+  }
+
+</style>
 
 <script>
 
