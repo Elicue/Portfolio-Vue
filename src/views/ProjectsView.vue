@@ -1,4 +1,5 @@
 <template>
+  <WIP/>
   <ScrollBar/>
   <Header titre="my projects"/>
   <div class="projects w-full lg:mt-[15vh] mt-[10vh] overflow-hidden">
@@ -133,6 +134,7 @@
   import Circles2 from '@/components/Circles2.vue';
   import ScrollBar from '@/components/ScrollBar.vue';
   import Header from '@/components/Header.vue';
+  import WIP from '@/components/WIP.vue';
 
   export default {
 
@@ -148,7 +150,8 @@
       Circles,
       Circles2,
       ScrollBar,
-      Header
+      Header,
+      WIP
     },
   }
 </script>

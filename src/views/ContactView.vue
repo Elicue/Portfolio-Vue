@@ -1,4 +1,5 @@
 <template >
+  <WIP/>
   <ScrollBar/>
   <Header titre="contact me"/>
   <div class="w-11/12 mx-auto mt-[15vh]">
@@ -104,6 +105,7 @@ import Footer from "@/components/Footer.vue";
 import AnimBtnContact from "@/components/AnimBtnContact.vue";
 import ScrollBar from "@/components/ScrollBar.vue";
 import Header from "@/components/Header.vue";
+import WIP from "@/components/WIP.vue";
 
   export default {
     name: 'ContactView',
@@ -137,7 +139,8 @@ import Header from "@/components/Header.vue";
       Footer,
       AnimBtnContact,
       ScrollBar,
-      Header
+      Header,
+      WIP
 }
   }
 

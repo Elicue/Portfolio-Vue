@@ -1,4 +1,5 @@
 <template>
+  <WIP/>
   <ScrollBar/>
   <Header titre="about me"/>
   <div class="home w-full lg:mt-[15vh] mt-20">
@@ -249,6 +250,7 @@
   import Button from '@/components/Button.vue'
   import ScrollBar from '@/components/ScrollBar.vue'
   import Header from '@/components/Header.vue'
+  import WIP from '@/components/WIP.vue'
 
   export default {
 
@@ -260,7 +262,8 @@
       Footer,
       Button,
       ScrollBar,
-      Header
+      Header,
+      WIP
     },
 
     mounted(){
