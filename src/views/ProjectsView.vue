@@ -22,8 +22,8 @@
       </div>
       <div class="flex flex-col lg:w-1/2 w-full justify-start items-end relative">
         <div class="relative flex w-full hover -top-12">
-          <ProjectCard titre="page d'accueil" desc="Mon" bold="portfolio" url="/images/portfolio-side.jpg"  class="absolute rotate-[24deg] right-24 w-7/12 top-12 z-10"/>
-          <ProjectCard titre="page contact" desc="Mon" bold="portfolio" url="/images/portfolio-side.jpg" class="w-7/12 h-min z-[1]"/>
+          <ProjectCard titre="page d'accueil" desc="Mon" bold="portfolio" url="images/portfolio-side.jpg"  class="absolute rotate-[24deg] right-24 w-7/12 top-12 z-10"/>
+          <ProjectCard titre="page contact" desc="Mon" bold="portfolio" url="images/portfolio-side.jpg" class="w-7/12 h-min z-[1]"/>
         </div>
         <div class="absolute z-10 -bottom-2 -right-8 lg:flex border-primary rounded-full flex text-sm flex-row gap-6 border-solid border-2 px-7 bg-white py-2 w-1/2">
           <img src="images/Window.svg" alt="icone">
