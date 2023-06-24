@@ -12,7 +12,6 @@
         </div>
         <div class="flex flex-row gap-8">
           <FillBtn href="/projets" titre="Mes projets"/>
-          <ArrowBtn href="/contact" titre="Me contacter"/>
         </div>
       </div>
       <div class="flex flex-col lg:w-1/2 w-full lg:items-end relative">
@@ -60,7 +59,7 @@
 import Nav from '@/components/Nav.vue';
 import Citation from '@/components/Citation.vue';
 import FillBtn from '@/components/FillBtn.vue';
-import ArrowBtn from '@/components/ArrowBtn.vue';
+// import ArrowBtn from '@/components/ArrowBtn.vue';
 import LogoSpin from '@/components/LogoSpin.vue';
 import GithubPub from '@/components/GithubPub.vue';
 
@@ -72,7 +71,7 @@ export default {
     Nav,
     Citation,
     FillBtn,
-    ArrowBtn,
+    // ArrowBtn,
     LogoSpin,
     GithubPub
 

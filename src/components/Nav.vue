@@ -7,8 +7,8 @@
       <div class="lg:w-1/3 w-1/4 flex justify-end">
         <div class="burger"></div>
         <ul class="flex-row gap-8 hidden lg:flex">
-          <li class=" text-xs font-inter lg:text-base active"><router-link to="/">À propos</router-link></li>
-          <li class=" text-xs font-inter lg:text-base"><router-link to="/projets">Mes projets</router-link></li>
+          <li class=" text-xs font-inter lg:text-base "><router-link to="/">À propos</router-link></li>
+          <li class=" text-xs font-inter lg:text-base"><router-link to="/projects">Mes projets</router-link></li>
           <li class=" text-xs font-inter lg:text-base"><router-link to="/contact">Me contacter</router-link></li>
         </ul>
       </div>
@@ -16,9 +16,9 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 
-.active {
+.font-inter:hover {
   font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 3px;
