@@ -1,8 +1,8 @@
 <template>
   <GithubPub />
   <Nav />
-  <div class="flex flex-col w-full lg:gap-[30vh] gap-[15vh]">
-    <section class="w-full h-screen pt-[9%] items-center bg-cover bg-top bg-no-repeat bg-fond px-[5%] flex lg:flex-row flex-col justify-between">
+  <div class="flex flex-col w-full lg:gap-[30vh] gap-[30vh]">
+    <section class="w-full lg:h-screen h-fit lg:pt-[9%] pt-[25%] items-center bg-cover bg-top bg-no-repeat bg-fond px-[5%] flex lg:flex-row flex-col justify-between">
       <div class="flex flex-col lg:w-[40%] w-full gap-8 items-start justify-center">
         <Citation titre="À propos de moi"/>
         <h1 class="lg:text-[80px] text-[50px] font-regular lg:leading-[80px] leading-[60px] border-b-4 pb-4 border-primary"><span class="font-semibold">Bienvenue </span> sur mon  <strong class=" font-normal lg:text-[100px] text-[80px] lg:ml-4 text-primary font-macaroni">portfolio</strong></h1>
@@ -16,13 +16,13 @@
         </div>
       </div>
       <div class="flex flex-col lg:w-1/2 w-full lg:items-end relative">
-          <div class="img w-fil flex flex-col justify-end lg:items-end lg:h-[70vh] h-[50vh] relative mr-4 mt-8 lg:mt-0">
-            <div class="absolute z-10 top-8 -left-14 lg:flex">
+          <div class="img w-fil flex flex-col justify-end lg:items-end lg:h-[70vh] h-fit relative lg:mr-4 mt-8 lg:mt-0">
+            <div class="absolute hidden z-10 top-8 -left-14 lg:flex">
               <LogoSpin url="images/Smiley.svg"/>
             </div>
-            <div class="lg:w-[30vw] w-[80vw] bg-primary border-[1.5px] border-primary h-full absolute top-4 z-[-1] left-4">
+            <div class="lg:w-[30vw] lg:flex hidden w-11/12 bg-primary border-[1.5px] border-primary lg:h-full h-[80vh] absolute top-4 z-[-1] left-4">
             </div>
-            <div class="card w-[30vw] border-[1.5px] border-noir h-full text-noir bg-white items-end pb-8 flex hover:translate-x-4 hover:translate-y-4 transition-all ">
+            <div class="card lg:w-[30vw] w-full border-[1.5px] border-noir lg:h-full h-[80vh] text-noir bg-white items-end pb-8 flex hover:translate-x-4 hover:translate-y-4 transition-all ">
               <div class="flex flex-col relative justify-between h-5/6 w-10/12 mx-auto">
                 <h2 class="ml-auto font-semibold text-3xl">À propos</h2>
                 <div class="flex flex-col gap-3">
