@@ -18,7 +18,7 @@
       <div class="flex flex-col lg:w-1/2 w-full lg:items-end relative">
           <div class="img w-fil flex flex-col justify-end lg:items-end lg:h-[70vh] h-[50vh] relative mr-4 mt-8 lg:mt-0">
             <div class="absolute z-10 top-8 -left-14 lg:flex">
-              <LogoSpin url="Images/Smiley.svg"/>
+              <LogoSpin url="images/Smiley.svg"/>
             </div>
             <div class="lg:w-[30vw] w-[80vw] bg-primary border-[1.5px] border-primary h-full absolute top-4 z-[-1] left-4">
             </div>
