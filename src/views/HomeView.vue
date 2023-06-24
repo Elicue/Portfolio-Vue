@@ -11,7 +11,7 @@
           <p>J’aime créer et imaginer des projets <strong>harmonieux</strong> et <strong>agréables visuellement</strong>, tout en restant <strong>intuitifs</strong> et <strong>simples d'utilisation</strong>.</p>
         </div>
         <div class="flex flex-row gap-8">
-          <FillBtn href="/projets" titre="Mes projets"/>
+          <FillBtn href="/projects" titre="Mes projets"/>
         </div>
       </div>
       <div class="flex flex-col lg:w-1/2 w-full lg:items-end relative">
@@ -28,7 +28,7 @@
                   <p>Curieuse et créative, je m'efforce toujours de développer des design de conception uniques.</p>
                   <p>Depuis longtemps, je suis passionnée par l'art et les activités créatives. Cette passion m'a permis de développer un sens esthétique aiguisé, que j'applique aujourd'hui à la création de sites web plaisants visuellement. En combinant mes compétences artistiques et techniques, je m'efforce de concevoir des expériences en ligne captivantes qui enchantent les utilisateurs dès leur première visite.</p>
                 </div>
-                <FillBtn class="ml-auto" href="/projets" titre="Mes projets"/>
+                <FillBtn class="ml-auto" href="/projects" titre="Mes projets"/>
               </div>
             </div>
           </div>
