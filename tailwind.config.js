@@ -6,13 +6,17 @@ module.exports = {
       colors:{
         gris:'#808080',
         noir:'#191919',
-        primary:'#a5334a',
+        primary:'#FA2B43',
       },
+      
+      backgroundImage : {
+        'fond' : "url('/public/images/lines.svg')",
+      }
     },
 
     fontFamily: {
-      voyage: ['voyage','sans-serif'],
-      staff: ['staff','sans-serif'],
+      macaroni: ['macaroni','sans-serif'],
+      inter: ['inter','sans-serif'],
     },
   },
   plugins: [],
