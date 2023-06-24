@@ -6,7 +6,7 @@
       <div class="flex flex-col lg:w-[40%] w-full gap-8 items-start justify-center">
         <Citation titre="À propos de moi"/>
         <h1 class="lg:text-[80px] text-[50px] font-regular lg:leading-[80px] leading-[60px] border-b-4 pb-4 border-primary"><span class="font-semibold">Bienvenue </span> sur mon  <strong class=" font-normal lg:text-[100px] text-[80px] lg:ml-4 text-primary font-macaroni">portfolio</strong></h1>
-        <div class="gap-2 flex flex-col mt-4 text-sm lg:text-lg">
+        <div class="gap-2 flex flex-col mt-4 text-sm lg:text-base">
           <p>Étudiante en 3ème année en coding & digital innovation à l'IIM Digital School Paris, je suis passionnée par la création de sites web.</p>
           <p>J’aime créer et imaginer des projets <strong>harmonieux</strong> et <strong>agréables visuellement</strong>, tout en restant <strong>intuitifs</strong> et <strong>simples d'utilisation</strong>.</p>
         </div>
@@ -28,7 +28,7 @@
                   <p>Curieuse et créative, je m'efforce toujours de développer des design de conception uniques.</p>
                   <p>Depuis longtemps, je suis passionnée par l'art et les activités créatives. Cette passion m'a permis de développer un sens esthétique aiguisé, que j'applique aujourd'hui à la création de sites web plaisants visuellement. En combinant mes compétences artistiques et techniques, je m'efforce de concevoir des expériences en ligne captivantes qui enchantent les utilisateurs dès leur première visite.</p>
                 </div>
-                <FillBtn class="ml-auto" href="/projects" titre="Mes projets"/>
+                <ArrowBtn class="ml-auto invisible" href="/projects" titre="Mes projets"/>
               </div>
             </div>
           </div>

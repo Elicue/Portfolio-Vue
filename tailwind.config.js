@@ -12,11 +12,6 @@ module.exports = {
       backgroundImage : {
         'fond' : "url('/public/images/lines.svg')",
       },
-
-      cursor: {
-        'custom': 'url(/public/images/Cursor.svg), auto',
-        'plus': 'url(/public/images/Plus.svg), pointer',
-      }
     },
 
     fontFamily: {
