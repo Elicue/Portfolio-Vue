@@ -9,7 +9,7 @@
         <ul class="flex-row gap-8 hidden lg:flex">
           <li class=" text-xs font-inter lg:text-base "><router-link to="/">À propos</router-link></li>
           <li class=" text-xs font-inter lg:text-base"><router-link to="/projects">Mes projets</router-link></li>
-          <li class=" text-xs font-inter lg:text-base"><router-link to="/contact">Me contacter</router-link></li>
+          <!-- <li class=" text-xs font-inter lg:text-base"><router-link to="/contact">Me contacter</router-link></li> -->
         </ul>
       </div>
     </div>

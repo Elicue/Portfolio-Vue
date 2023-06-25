@@ -1,5 +1,5 @@
 <template>
-  <div class="hover:cursor-plus">
+  <div>
     <router-link :to="href">
       <p class="relative font-inter rounded-full items-center justify-start  px-7 py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
         <img class="hidden " src="../../public/images/ion_arrow-up-red.svg" alt="fleche">

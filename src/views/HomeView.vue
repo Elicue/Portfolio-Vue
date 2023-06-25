@@ -2,7 +2,7 @@
   <GithubPub />
   <Nav />
   <div class="flex flex-col w-full lg:gap-[30vh] gap-[30vh]">
-    <section class="w-full lg:h-screen h-fit lg:pt-[9%] pt-[25%] items-center bg-cover bg-top bg-no-repeat bg-fond px-[5%] flex lg:flex-row flex-col justify-between">
+    <section class="w-full lg:h-screen h-fit lg:pt-[9%] pt-[25%] items-center px-[5%] flex lg:flex-row flex-col justify-between">
       <div class="flex flex-col lg:w-[40%] w-full gap-8 items-start justify-center">
         <Citation titre="À propos de moi"/>
         <h1 class="lg:text-[80px] text-[50px] font-regular lg:leading-[80px] leading-[60px] border-b-4 pb-4 border-primary"><span class="font-semibold">Bienvenue </span> sur mon  <strong class=" font-normal lg:text-[100px] text-[80px] lg:ml-4 text-primary font-macaroni">portfolio</strong></h1>
@@ -28,7 +28,6 @@
                   <p>Curieuse et créative, je m'efforce toujours de développer des design de conception uniques.</p>
                   <p>Depuis longtemps, je suis passionnée par l'art et les activités créatives. Cette passion m'a permis de développer un sens esthétique aiguisé, que j'applique aujourd'hui à la création de sites web plaisants visuellement. En combinant mes compétences artistiques et techniques, je m'efforce de concevoir des expériences en ligne captivantes qui enchantent les utilisateurs dès leur première visite.</p>
                 </div>
-                <ArrowBtn class="ml-auto invisible" href="/projects" titre="Mes projets"/>
               </div>
             </div>
           </div>
@@ -52,6 +51,15 @@
       transform: rotate(360deg);
     }
 }
+p:hover img:nth-child(1) {
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+
+p:hover img:nth-child(2) {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
 
 </style>
  
@@ -59,9 +67,9 @@
 import Nav from '@/components/Nav.vue';
 import Citation from '@/components/Citation.vue';
 import FillBtn from '@/components/FillBtn.vue';
-// import ArrowBtn from '@/components/ArrowBtn.vue';
 import LogoSpin from '@/components/LogoSpin.vue';
 import GithubPub from '@/components/GithubPub.vue';
+// import ArrowBtn from '@/components/ArrowBtn.vue';
 
 export default {
 
@@ -71,11 +79,10 @@ export default {
     Nav,
     Citation,
     FillBtn,
-    // ArrowBtn,
     LogoSpin,
-    GithubPub
-
-  },
+    GithubPub,
+    // ArrowBtn
+},
 
 }
 </script>
