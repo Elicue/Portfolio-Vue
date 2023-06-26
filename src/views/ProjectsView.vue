@@ -20,10 +20,10 @@
           <FillBtn href="/projets" titre="Me contacter" />
         </div>
       </div>
-      <div class="flex flex-col lg:w-1/2 w-full justify-start items-end relative">
+      <div class="lg:flex flex-col lg:w-1/2 w-full hidden justify-start items-end relative">
         <div class="relative flex w-full hover -top-12">
-          <ProjectCard titre="&nbsp;" desc="&nbsp;" bold="&nbsp;" url="images/Portfolio-side.jpg"
-            class="absolute lg:block hidden rotate-[24deg] right-24 w-7/12 top-12 z-10" />
+          <ProjectCard titre="&nbsp;" desc="&nbsp;" bold="&nbsp;" url="images/3ECS.png"
+            class="absolute lg:block rotate-[24deg] right-24 w-7/12 top-12 z-10" />
           <ProjectCard titre="&nbsp;" desc="&nbsp;" bold="&nbsp;" url="images/florela-side.jpg"
             class="lg:w-7/12 w-full h-min z-[1]" />
         </div>
@@ -57,7 +57,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col lg:flex-row w-full items-center gap-12">
+      <div class="flex flex-col-reverse lg:flex-row w-full items-center gap-12">
         <div class="flex flex-col w-full lg:w-1/2 gap-4">
           <DescProjet2 titre="Intégration de" type="Site web" main="maquette"
             desc="Dans le cadre d'une recherche de stage, j'ai eu l'opportunité de faire une intégration de maquette en HTML/CSS pour une agence digitale à Paris"
@@ -101,7 +101,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col lg:flex-row w-full items-center gap-12">
+      <div class="flex flex-col-reverse lg:flex-row w-full items-center gap-12">
         <div class="flex flex-col w-full lg:w-1/2 gap-4">
           <DescProjet2 titre="Réalisation de" type="Maquette" main="maquette"
             desc="Réalisation d'une maquette pour un fleuriste, projet personnel réalisé  sur Figma."
