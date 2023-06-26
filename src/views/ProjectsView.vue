@@ -38,18 +38,17 @@
 
     <section class="w-full lg:gap-32 gap-24 h-fit lg:pt-[9%] pt-[25%] items-center px-[5%] flex flex-col justify-between">
 
-      <div class="flex flex-col lg:flex-row w-full items-center gap-12">
-        <ProjectCard url="images/devlab-side.png" class="w-full lg:w-1/2 h-full" />
+      <div class="flex flex-col-reverse lg:flex-row w-full items-center gap-12">
+        <ProjectCard url="images/zot-side.png" class="w-full lg:w-1/2 h-full" />
         <div class="flex flex-col w-full lg:w-1/2 gap-4">
-          <DescProjet titre="Site de" type="Site web" main="streaming"
-            desc="Projet réalisé à l'école, visant à créer une plateforme de streaming, grâce à 'The MovieDB', une base de données de films et séries créée par la communauté. Projet en collaboration avec "
-            collab="Arthur Prud'homme" coop="https://github.com/Arthur-Prudhomme" date="10 janvier 2023" />
+          <DescProjet titre="Intégration de" type="Site web" main="maquette"
+            desc="Dans le cadre d'une recherche de stage, j'ai eu l'opportunité de faire une intégration de maquette en HTML/CSS pour une agence digitale à Paris"
+            date="05 juin - 23 juin 2023" />
           <div class="flex flex-row gap-10">
-            <a target="blank" href="https://github.com/Elicue/Devlab">
-              <p
-                class="relative font-inter rounded-full items-center cursor-pointer justify-start py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
+            <a target="blank" href="https://zot.wesa.fr/">
+              <p class="relative font-inter rounded-full items-center cursor-pointer justify-start py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
                 <img class="hidden " src="../../public/images/ion_arrow-up-red.svg" alt="fleche">
-                Github
+                Site en ligne
                 <img class="flex" src="../../public/images/ion_arrow-up.svg" alt="fleche">
               </p>
             </a>
@@ -57,12 +56,32 @@
         </div>
       </div>
 
-      <div class="flex flex-col-reverse lg:flex-row w-full items-center gap-12">
+      <div class="flex flex-col lg:flex-row w-full items-center gap-12">
         <div class="flex flex-col w-full lg:w-1/2 gap-4">
           <DescProjet2 titre="Intégration de" type="Site web" main="maquette"
+            desc="Projet réalisé durant mon stage. Intégration de maquette sur Joomla 4 en utilisant Bootstrap. Projet en collaboration avec "
+            collab=" Théa Blachon" coop="https://github.com/EthraDev" date="12 avril - 15 juin 2023" />
+            <div class="flex flex-row gap-10 justify-end">
+            <a target="blank" href="https://3ecs.wesa.fr/index.php">
+              <p
+                class="relative font-inter rounded-full items-center cursor-pointer justify-start py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
+                <img class="hidden " src="../../public/images/ion_arrow-up-red.svg" alt="fleche">
+                Site en ligne
+                <img class="flex" src="../../public/images/ion_arrow-up.svg" alt="fleche">
+              </p>
+            </a>
+          </div>
+        </div>
+        <ProjectCard url="images/3ECS-side.png" class="w-full lg:w-1/2 h-full" />
+      </div>
+
+      <div class="flex flex-col-reverse lg:flex-row w-full items-center gap-12">
+        <ProjectCard url="images/gs-side.jpg" class="w-full lg:w-1/2 h-full" />
+        <div class="flex flex-col w-full lg:w-1/2 gap-4">
+          <DescProjet titre="Intégration de" type="Site web" main="maquette"
             desc="Dans le cadre d'une recherche de stage, j'ai eu l'opportunité de faire une intégration de maquette en HTML/CSS pour une agence digitale à Paris"
-            date="15 mars 2023" />
-          <div class="flex flex-row gap-10 justify-end">
+            date="15 mars - 19 mars 2023" />
+          <div class="flex flex-row gap-10">
             <a target="blank" href="https://github.com/Elicue/GS-EXPERTISE">
               <p class="relative font-inter rounded-full items-center cursor-pointer justify-start py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
                 <img class="hidden " src="../../public/images/ion_arrow-up-red.svg" alt="fleche">
@@ -74,26 +93,6 @@
               <p class="relative font-inter rounded-full items-center cursor-pointer justify-start py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
                 <img class="hidden " src="../../public/images/ion_arrow-up-red.svg" alt="fleche">
                 Site en ligne
-                <img class="flex" src="../../public/images/ion_arrow-up.svg" alt="fleche">
-              </p>
-            </a>
-          </div>
-        </div>
-        <ProjectCard url="images/gs-side.jpg" class="w-full lg:w-1/2 h-full" />
-      </div>
-
-      <div class="flex flex-col lg:flex-row w-full items-center gap-12">
-        <ProjectCard url="images/bap-side.png" class="w-full lg:w-1/2 h-full" />
-        <div class="flex flex-col w-full lg:w-1/2 gap-4">
-          <DescProjet titre="Site d'" type="Site web" type2="Maquette" main="Ecologica"
-            desc="Il s'agit d'une refonte partielle du site Web de l'école d'enseignement supérieur Ecologica. Notre refonte comprend la page de candidature, la page d'accueil et la page de formulaire. Cela a été fait dans le cadre d'un projet de 2ème année à l'IIM, avec "
-            collab=" Théa Blachon, " coop="https://github.com/EthraDev" collab2="Arthur Prud'homme, " coop2="https://github.com/Arthur-Prudhomme" collab3="et Pierre-Louis Sans" coop3="https://github.com/Pl83" date="15 décembre 2023" />
-            <div class="flex flex-row gap-10">
-            <a target="blank" href="https://github.com/EthraDev/site_static_ecologica">
-              <p
-                class="relative font-inter rounded-full items-center cursor-pointer justify-start py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
-                <img class="hidden " src="../../public/images/ion_arrow-up-red.svg" alt="fleche">
-                Github
                 <img class="flex" src="../../public/images/ion_arrow-up.svg" alt="fleche">
               </p>
             </a>
@@ -120,17 +119,17 @@
       </div>
 
       <div class="flex flex-col lg:flex-row w-full items-center gap-12">
-        <ProjectCard url="images/3ECS-side.png" class="w-full lg:w-1/2 h-full" />
+        <ProjectCard url="images/devlab-side.png" class="w-full lg:w-1/2 h-full" />
         <div class="flex flex-col w-full lg:w-1/2 gap-4">
-          <DescProjet titre="Intégration de" type="Site web" main="maquette"
-            desc="Projet réalisé durant mon stage. Intégration de maquette sur Joomla 4 en utilisant Bootstrap. Projet en collaboration avec "
-            collab=" Théa Blachon" coop="https://github.com/EthraDev" date="15 juin 2023" />
-            <div class="flex flex-row gap-10">
-            <a target="blank" href="https://3ecs.wesa.fr/index.php">
+          <DescProjet titre="Site de" type="Site web" main="streaming"
+            desc="Projet réalisé à l'école, visant à créer une plateforme de streaming, grâce à 'The MovieDB', une base de données de films et séries créée par la communauté. Projet en collaboration avec "
+            collab="Arthur Prud'homme" coop="https://github.com/Arthur-Prudhomme" date="2 janvier - 10 janvier 2023" />
+          <div class="flex flex-row gap-10">
+            <a target="blank" href="https://github.com/Elicue/Devlab">
               <p
-                class="relative font-inter rounded-full items-center cursor-pointer justify-start py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
+                class="relative font-inter rounded-full items-center cursor-pointer justify-end py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
                 <img class="hidden " src="../../public/images/ion_arrow-up-red.svg" alt="fleche">
-                Site en ligne
+                Github
                 <img class="flex" src="../../public/images/ion_arrow-up.svg" alt="fleche">
               </p>
             </a>
@@ -138,6 +137,24 @@
         </div>
       </div>
 
+      <div class="flex flex-col lg:flex-row w-full items-center gap-12">
+        <div class="flex flex-col w-full lg:w-1/2 gap-4">
+          <DescProjet2 titre="Site d'" type="Site web" type2="Maquette" main="Ecologica"
+            desc="Il s'agit d'une refonte partielle du site Web de l'école d'enseignement supérieur Ecologica. Notre refonte comprend la page de candidature, la page d'accueil et la page de formulaire. Cela a été fait dans le cadre d'un projet de 2ème année à l'IIM, avec "
+            collab=" Théa Blachon, " coop="https://github.com/EthraDev" collab2="Arthur Prud'homme, " coop2="https://github.com/Arthur-Prudhomme" collab3="et Pierre-Louis Sans" coop3="https://github.com/Pl83" date="15 décembre 2023" />
+            <div class="flex flex-row gap-10 justify-end">
+            <a target="blank" href="https://github.com/EthraDev/site_static_ecologica">
+              <p
+                class="relative font-inter rounded-full items-center cursor-pointer justify-start py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
+                <img class="hidden " src="../../public/images/ion_arrow-up-red.svg" alt="fleche">
+                Github
+                <img class="flex" src="../../public/images/ion_arrow-up.svg" alt="fleche">
+              </p>
+            </a>
+          </div>
+        </div>
+        <ProjectCard url="images/bap-side.png" class="w-full lg:w-1/2 h-full" />
+      </div>
     </section>
   </div>
 </template>
