@@ -28,7 +28,7 @@
             class="lg:w-7/12 w-full h-min z-[1]" />
         </div>
         <div
-          class="absolute hidden z-10 -bottom-2 -right-8 lg:flex border-primary rounded-full flex text-sm flex-row gap-6 border-solid border-2 px-7 bg-white py-2 w-1/2">
+          class="absolute hidden z-10 -bottom-2 -right-8 lg:flex border-primary rounded-full flex text-sm flex-row gap-6 border-solid border-2 px-7 bg-blanc py-2 w-1/2">
           <img src="images/Window.svg" alt="icone">
           <p>Créer des expériences mémorables et captivantes.</p>
         </div>

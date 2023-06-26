@@ -7,6 +7,7 @@ module.exports = {
         gris:'#808080',
         noir:'#191919',
         primary:'#FA2B43',
+        blanc:'#FFFFFF',
       },
       
       backgroundImage : {

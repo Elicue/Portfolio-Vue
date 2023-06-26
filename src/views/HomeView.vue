@@ -21,7 +21,7 @@
             </div>
             <div class="lg:w-[30vw] lg:flex hidden w-11/12 bg-primary border-[1.5px] border-primary lg:h-full h-[80vh] absolute top-4 z-[-1] left-4">
             </div>
-            <div class="card lg:w-[30vw] w-full border-[1.5px] border-noir lg:h-full h-[80vh] text-noir bg-white items-end pb-8 flex hover:translate-x-4 hover:translate-y-4 transition-all ">
+            <div class="card lg:w-[30vw] w-full border-[1.5px] border-noir lg:h-full h-[80vh] text-noir bg-blanc items-end pb-8 flex hover:translate-x-4 hover:translate-y-4 transition-all ">
               <div class="flex flex-col relative justify-between h-5/6 w-10/12 mx-auto">
                 <h2 class="ml-auto font-semibold text-3xl">À propos</h2>
                 <div class="flex flex-col gap-3">
@@ -62,13 +62,13 @@
             </div>
             <div class="lg:w-[30vw] lg:flex hidden w-11/12 bg-primary border-[1.5px] border-primary lg:h-full h-[80vh] absolute top-4 z-[-1] left-4">
             </div>
-            <div class="card lg:w-[30vw] w-full border-[1.5px] border-noir lg:h-full h-[65vh] text-noir bg-white items-end flex hover:translate-x-4 hover:translate-y-4 transition-all ">
+            <div class="card lg:w-[30vw] w-full border-[1.5px] border-noir lg:h-full h-[65vh] text-noir bg-blanc items-end flex hover:translate-x-4 hover:translate-y-4 transition-all ">
               <div class="flex flex-col relative justify-end items-end mx-auto">
                 <img src="images/mwa.png" alt="">
               </div>
             </div>
             <div
-              class="absolute hidden z-10 bottom-8 -left-24 lg:flex border-primary rounded-full flex text-sm flex-row gap-6 border-solid border-2 px-7 bg-white py-2 w-4/5">
+              class="absolute hidden z-10 bottom-8 -left-24 lg:flex border-primary rounded-full flex text-sm flex-row gap-6 border-solid border-2 px-7 bg-blanc py-2 w-4/5">
               <img src="images/mail.svg" alt="icone">
               <p>Toujours ouverte à de nouvelles propositions et offres intéressantes.</p>
             </div>
