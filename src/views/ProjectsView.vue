@@ -100,7 +100,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col-reverse lg:flex-row w-full items-center gap-12">
+      <div class="flex flex-col lg:flex-row w-full items-center gap-12">
         <div class="flex flex-col w-full lg:w-1/2 gap-4">
           <DescProjet2 titre="Réalisation de" type="Maquette" main="maquette"
             desc="Réalisation d'une maquette pour un fleuriste, projet personnel réalisé  sur Figma."
@@ -118,7 +118,7 @@
         <ProjectCard url="images/florela-side.png" class="w-full lg:w-1/2 h-full" />
       </div>
 
-      <div class="flex flex-col lg:flex-row w-full items-center gap-12">
+      <div class="flex flex-col-reverse lg:flex-row w-full items-center gap-12">
         <ProjectCard url="images/devlab-side.png" class="w-full lg:w-1/2 h-full" />
         <div class="flex flex-col w-full lg:w-1/2 gap-4">
           <DescProjet titre="Site de" type="Site web" main="streaming"
