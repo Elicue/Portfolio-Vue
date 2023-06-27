@@ -35,14 +35,14 @@
 
       </div>
     </section>
-
+    
     <section class="w-full lg:gap-32 gap-24 h-fit lg:pt-[9%] pt-[25%] items-center px-[5%] flex flex-col justify-between">
 
       <div class="flex flex-col-reverse lg:flex-row w-full items-center gap-12">
         <ProjectCard url="images/zot-side.png" class="w-full lg:w-1/2 h-full" />
         <div class="flex flex-col w-full lg:w-1/2 gap-4">
           <DescProjet titre="Intégration de" type="Site web" main="maquette"
-            desc="Dans le cadre d'une recherche de stage, j'ai eu l'opportunité de faire une intégration de maquette en HTML/CSS pour une agence digitale à Paris"
+            desc="Projet réalisé durant mon stage. Intégration de maquette sur Joomla 4 en utilisant Bootstrap."
             date="05 juin - 23 juin 2023" />
           <div class="flex flex-row gap-10">
             <a target="blank" href="https://zot.wesa.fr/">

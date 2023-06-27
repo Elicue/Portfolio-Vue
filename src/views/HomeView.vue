@@ -36,6 +36,7 @@
           </div>
       </div>
     </section>
+
     <section class="w-full lg:h-screen h-fit lg:pt-[9%] pt-[25%] items-center px-[5%] flex lg:flex-row flex-col justify-between">
       <div class="flex flex-col lg:w-[40%] w-full gap-8 items-start justify-center">
         <Citation titre="Me contacter"/>
