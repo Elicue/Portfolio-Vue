@@ -78,16 +78,16 @@
               </div>
               <div class="second lg:h-[20vh] flex flex-col-reverse lg:flex-row">
                 <div class="lg:w-2/5 flex flex-row items-center lg:mb-0 mt-8">
-                  <p class="border-r-[1px] border-noir pr-6 w-11/12 text-right">Ou même la suite Adobe avec <span class="text-primary font-semibold">IllustArator</span>,
-                     <span>Photoshop</span> et <span class="text-primary font-semibold">Xd</span>, ou encore <span class="text-primary font-semibold">Figma</span>, avec lequel je travaille réguliérement.</p>
+                  <p class="border-r-[1px] border-noir pr-6 w-11/12 text-right">Ou même la suite Adobe avec <span class="text-primary font-semibold">Illustrator</span>,
+                     <span class="text-primary font-semibold">Photoshop</span> et <span class="text-primary font-semibold">Xd</span>, ou encore <span class="text-primary font-semibold">Figma</span>, avec lequel je travaille réguliérement.</p>
                 </div>
                 <div class="skills grid lg:grid-cols-4 gap-4 lg:gap-0 grid-cols-2 lg:w-3/5 justify-between">
-                  <Skill titre="figma" href="https://help.figma.com/hc/fr" url="/images/figma-logo.svg" skill="figma" />
-                  <Skill titre="Xd" href="https://helpx.adobe.com/fr/xd/help/cloud-documents.html"
-                    url="/images/xd-logo.svg" skill="Xd" />
                   <Skill titre="Illustrator" href="https://helpx.adobe.com/fr/illustrator/user-guide.html"
                     url="/images/ai-logo.png" skill="Ai" />
-                  <!-- <Skill titre="framer" href="https://www.framer.com/motion/" url="/images/framer-logo.png" skill="framer"/> -->
+                  <Skill titre="Photoshop" href="https://helpx.adobe.com/fr/photoshop/user-guide.html" url="/images/ps-logo.svg" skill="Ps"/>
+                  <Skill titre="Xd" href="https://helpx.adobe.com/fr/xd/help/cloud-documents.html"
+                    url="/images/xd-logo.svg" skill="Xd" />
+                  <Skill titre="figma" href="https://help.figma.com/hc/fr" url="/images/figma-logo.svg" skill="figma" />
                 </div>
               </div>
               <div class="third lg:h-[20vh] flex flex-col lg:flex-row">
@@ -100,7 +100,7 @@
                 </div>
                 <div class="lg:w-2/5 flex flex-row items-center lg:my-0 my-8">
                   <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Ou des langages et logiciels backend, tels que
-                     <span class="text-primary font-semibold">Php</span> et <span class="text-primary font-semibold">Sql</span>.</p>
+                     <span class="text-primary font-semibold">Php</span>, <span class="text-primary font-semibold">Laravel</span> et <span class="text-primary font-semibold">Sql</span>.</p>
                 </div>
               </div>
             </div>
