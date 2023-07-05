@@ -1,4 +1,5 @@
 <template>
+  <ScrollBar />
   <GithubPub />
   <Nav />
   <div class="flex flex-col w-full lg:gap-[30vh] gap-[10vh]">
@@ -67,9 +68,9 @@
                     skill="html" />
                   <Skill titre="sass" href="https://sass-lang.com/documentation/" url="/images/sass-logo.svg"
                     skill="sass" />
-                  <Skill titre="tailwind" href="https://v2.tailwindcss.com/docs" url="/images/tailwind-logo.png"
+                  <Skill titre="tailwind" href="https://v2.tailwindcss.com/docs" url="/images/tailwind-logo.svg"
                     skill="tailwind" />
-                  <Skill titre="js" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" url="/images/js-logo.svg"
+                  <Skill titre="js" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" url="/images/javascript-logo.svg"
                     skill="js" />
                 </div>
                 <div class="lg:w-2/5 flex flex-row items-center lg:my-0 my-8">
@@ -83,8 +84,8 @@
                 </div>
                 <div class="skills grid lg:grid-cols-4 gap-4 lg:gap-0 grid-cols-2 lg:w-3/5 justify-between">
                   <Skill titre="Illustrator" href="https://helpx.adobe.com/fr/illustrator/user-guide.html"
-                    url="/images/ai-logo.png" skill="Ai" />
-                  <Skill titre="Photoshop" href="https://helpx.adobe.com/fr/photoshop/user-guide.html" url="/images/ps-logo.svg" skill="Ps"/>
+                    url="/images/illustrator-logo.svg" skill="Ai" />
+                  <Skill titre="Photoshop" href="https://helpx.adobe.com/fr/photoshop/user-guide.html" url="/images/photoshop-logo.svg" skill="Ps"/>
                   <Skill titre="Xd" href="https://helpx.adobe.com/fr/xd/help/cloud-documents.html"
                     url="/images/xd-logo.svg" skill="Xd" />
                   <Skill titre="figma" href="https://help.figma.com/hc/fr" url="/images/figma-logo.svg" skill="figma" />
@@ -92,11 +93,11 @@
               </div>
               <div class="third lg:h-[20vh] flex flex-col lg:flex-row">
                 <div class="skills grid lg:grid-cols-4 gap-4 lg:gap-0 grid-cols-2 lg:w-3/5 justify-between">
-                  <Skill titre="vue" href="https://vuejs.org/guide/introduction.html" url="/images/vue-logo.png"
+                  <Skill titre="vue" href="https://vuejs.org/guide/introduction.html" url="/images/vue-logo.svg"
                     skill="vue" />
                   <Skill titre="php" href="https://www.php.net/docs.php" url="/images/php-logo.svg" skill="php" />
-                  <Skill titre="Symfoy" href="https://symfony.com/doc/current/index.html" url="/images/symfony-logo.png" skill="Symfony" />
-                  <Skill titre="Laravel" href="https://laravel.com/docs/10.x/readme" url="/images/laravel-logo.png" skill="Laravel" />
+                  <Skill titre="Symfoy" href="https://symfony.com/doc/current/index.html" url="/images/symfony-logo.svg" skill="Symfony" />
+                  <Skill titre="Laravel" href="https://laravel.com/docs/10.x/readme" url="/images/laravel-logo.svg" skill="Laravel" />
                 </div>
                 <div class="lg:w-2/5 flex flex-row items-center lg:my-0 my-8">
                   <p class="border-l-[1px] border-noir pl-6 w-11/12 text-left">Ou des langages et logiciels backend, tels que
@@ -135,7 +136,7 @@
           </a>
         </div>
       </div>
-      <div class="flex flex-col lg:w-1/2 w-full mx-auto lg:mx-0 lg:items-end relative mb-24 lg:mb-0">
+      <div class="flex flex-col lg:w-1/2 w-full mx-auto lg:mx-0 lg:items-end lg:mr-8 relative mb-24 lg:mb-0">
         <div class="img w-fil flex flex-col justify-end lg:items-end lg:h-[70vh] h-fit relative lg:mr-4 mt-8 lg:mt-0">
           <div class="absolute z-10 top-24 lg:w-12/12 hidden -right-14 lg:flex">
             <LogoSpin url="images/Smiley.svg" />
@@ -193,6 +194,7 @@ import LogoSpin from '@/components/LogoSpin.vue';
 import GithubPub from '@/components/GithubPub.vue';
 import Skill from '@/components/Skill.vue';
 // import ArrowBtn from '@/components/ArrowBtn.vue';
+import ScrollBar from '@/components/ScrollBar.vue';
 
 export default {
 
@@ -205,8 +207,8 @@ export default {
     LogoSpin,
     GithubPub,
     Skill,
-    // ArrowBtn
-  },
+    ScrollBar
+},
 
 }
 </script>

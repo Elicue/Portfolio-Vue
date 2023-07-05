@@ -53,8 +53,10 @@ export default {
     burger.addEventListener('click', () => {
       if (menu.classList.contains('hidden')) {
         menu.classList.remove('hidden');
+        menu.style.transition = 'all 0.5s ease-in-out';
       } else {
         menu.classList.add('hidden');
+        menu.style.transition = 'all 0.5s ease-in-out';
       }
     })
   }

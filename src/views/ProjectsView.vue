@@ -36,7 +36,7 @@
       </div>
     </section>
     
-    <section class="w-full lg:gap-32 gap-24 h-fit lg:pt-[9%] pt-[25%] items-center px-[5%] flex flex-col justify-between">
+    <section class="w-full mb-[5vh] lg:gap-32 gap-24 h-fit lg:pt-[9%] pt-[25%] items-center px-[5%] flex flex-col justify-between">
 
       <div class="flex flex-col-reverse lg:flex-row w-full items-center gap-12">
         <ProjectCard url="images/zot-side.png" class="w-full lg:w-1/2 h-full" />

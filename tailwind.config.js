@@ -11,7 +11,7 @@ module.exports = {
       },
       
       backgroundImage : {
-        'fond' : "url('/public/images/lines.svg')",
+        'lines' : "url('/public/images/line.svg')",
       },
     },
 
