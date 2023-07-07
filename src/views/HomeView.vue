@@ -38,7 +38,7 @@
                 <p>Depuis longtemps, je suis passionnée par l'art et les activités créatives. Cette passion m'a permis de
                   développer un sens esthétique aiguisé, que j'applique aujourd'hui à la création de sites web plaisants
                   visuellement. En combinant mes compétences artistiques et techniques, je m'efforce de concevoir des
-                  expériences en ligne captivantes qui enchantent les utilisateurs dès leur première visite.</p>
+                  expériences en ligne captivantes.</p>
               </div>
               <div class="flex flex-row w-full opacity-0 justify-end">
                 <FillBtn href="/projects" titre="Mes projets" />
@@ -79,13 +79,12 @@
               </div>
               <div class="second lg:h-[20vh] flex flex-col-reverse lg:flex-row">
                 <div class="lg:w-2/5 flex flex-row items-center lg:mb-0 mt-8">
-                  <p class="border-r-[1px] border-noir pr-6 w-11/12 text-right">Ou même la suite Adobe avec <span class="text-primary font-semibold">Illustrator</span>,
-                     <span class="text-primary font-semibold">Photoshop</span> et <span class="text-primary font-semibold">Xd</span>, ou encore <span class="text-primary font-semibold">Figma</span>, avec lequel je travaille réguliérement.</p>
+                  <p class="border-r-[1px] border-noir pr-6 w-11/12 text-right">Ou même la suite Adobe avec <span class="text-primary font-semibold">Illustrator</span>, <span class="text-primary font-semibold">Photoshop </span>et <span class="text-primary font-semibold">Xd</span>, <span class="text-primary font-semibold">Zeplin</span> ou encore <span class="text-primary font-semibold">Figma</span>, avec lequel je travaille réguliérement.</p>
                 </div>
                 <div class="skills grid lg:grid-cols-4 gap-4 lg:gap-0 grid-cols-2 lg:w-3/5 justify-between">
+                  <Skill titre="Zeplin" href="https://zeplin.io/" url="/images/Zeplin-logo.svg" skill="Zeplin"/>
                   <Skill titre="Illustrator" href="https://helpx.adobe.com/fr/illustrator/user-guide.html"
                     url="/images/illustrator-logo.svg" skill="Ai" />
-                  <Skill titre="Photoshop" href="https://helpx.adobe.com/fr/photoshop/user-guide.html" url="/images/photoshop-logo.svg" skill="Ps"/>
                   <Skill titre="Xd" href="https://helpx.adobe.com/fr/xd/help/cloud-documents.html"
                     url="/images/xd-logo.svg" skill="Xd" />
                   <Skill titre="figma" href="https://help.figma.com/hc/fr" url="/images/figma-logo.svg" skill="figma" />
@@ -110,7 +109,7 @@
       </div>
     </section>
 
-    <section class="w-full lg:h-screen h-fit lg:pt-[9%] pt-[25%] items-center px-[5%] flex lg:flex-row flex-col justify-between">
+    <section id="contact" class="w-full lg:h-screen h-fit lg:pt-[9%] pt-[25%] items-center px-[5%] flex lg:flex-row flex-col justify-between">
       <div class="flex flex-col lg:w-[40%] w-full gap-8 items-start justify-center">
         <Citation titre="Me contacter" />
         <h1

@@ -11,20 +11,20 @@
           Mes <strong class=" font-normal lg:text-[100px] text-[80px] lg:ml-4 text-primary font-macaroni">projets</strong>
         </h1>
         <div class="gap-2 flex flex-col mt-4 text-sm lg:text-lg">
-          <p>Grâce à mon parcours scolaire, j'ai eu l'opportunité de réaliser un grand nombre de projets qui ont
-            profondément enrichi ma vie. L'école m'a offert un environnement propice à <strong>l'apprentissage</strong> et
+          <p>Mon expérience a été profondément enrichie grâce aux nombreux projets que j'ai eu l'occasion de réaliser tout au long de mon parcours scolaire.</p>
+          <p> L'école m'a offert un environnement propice à <strong>l'apprentissage</strong> et
             à <strong>l'exploration de mes passions</strong>, me permettant ainsi de <strong>concrétiser mes
               idées</strong>.</p>
         </div>
         <div class="flex flex-row gap-8">
-          <FillBtn href="/projets" titre="Me contacter" />
+          <FillBtn href="/#contact" titre="Me contacter" />
         </div>
       </div>
       <div class="lg:flex flex-col lg:w-1/2 w-full hidden justify-start items-end relative">
         <div class="relative flex w-full hover -top-12">
           <ProjectCard titre="&nbsp;" desc="&nbsp;" bold="&nbsp;" url="images/3ECS.png"
             class="absolute lg:block rotate-[24deg] right-24 w-7/12 top-12 z-10" />
-          <ProjectCard titre="&nbsp;" desc="&nbsp;" bold="&nbsp;" url="images/florela-side.jpg"
+          <ProjectCard titre="&nbsp;" desc="&nbsp;" bold="&nbsp;" url="images/zot-side-c.png"
             class="lg:w-7/12 w-full h-min z-[1]" />
         </div>
         <div
@@ -141,7 +141,7 @@
         <div class="flex flex-col w-full lg:w-1/2 gap-4">
           <DescProjet2 titre="Site d'" type="Site web" type2="Maquette" main="Ecologica"
             desc="Il s'agit d'une refonte partielle du site Web de l'école d'enseignement supérieur Ecologica. Notre refonte comprend la page de candidature, la page d'accueil et la page de formulaire. Cela a été fait dans le cadre d'un projet de 2ème année à l'IIM, avec "
-            collab=" Théa Blachon, " coop="https://github.com/EthraDev" collab2="Arthur Prud'homme, " coop2="https://github.com/Arthur-Prudhomme" collab3="et Pierre-Louis Sans" coop3="https://github.com/Pl83" date="15 décembre 2023" />
+            collab=" Théa Blachon, " coop="https://github.com/EthraDev" collab2="Arthur Prud'homme, " coop2="https://github.com/Arthur-Prudhomme" collab3="et Pierre-Louis Sans" coop3="https://github.com/Pl83" date="15 décembre 2022" />
             <div class="flex flex-row gap-10 justify-end">
             <a target="blank" href="https://github.com/EthraDev/site_static_ecologica">
               <p
@@ -155,6 +155,26 @@
         </div>
         <ProjectCard url="images/bap-side.png" class="w-full lg:w-1/2 h-full" />
       </div>
+
+      <div class="flex flex-col-reverse lg:flex-row w-full items-center gap-12">
+        <ProjectCard url="images/skillsday-side.png" class="w-full lg:w-1/2 h-full" />
+        <div class="flex flex-col w-full lg:w-1/2 gap-4">
+          <DescProjet titre="Intégration de" type="Site web" main="maquette"
+            desc="Projet réalisé à l'école, visant à nous entrainer à utiliser Tailwind. Projet en collaboration avec "
+            collab="Arthur Prud'homme&nbsp;" coop="https://github.com/Arthur-Prudhomme" date="17 novembre - 21 novembre 2022" />
+          <div class="flex flex-row gap-10">
+            <a target="blank" href="https://github.com/Elicue/framework-front-end-a2dw2-ehrsam_prudhomme">
+              <p
+                class="relative font-inter rounded-full items-center cursor-pointer justify-end py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
+                <img class="hidden " src="../../public/images/ion_arrow-up-red.svg" alt="fleche">
+                Github
+                <img class="flex" src="../../public/images/ion_arrow-up.svg" alt="fleche">
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
     </section>
   </div>
 </template>
