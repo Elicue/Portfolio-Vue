@@ -1,5 +1,6 @@
 <template>
   <GithubPub />
+  <ScrollBar />
   <Nav />
   <div class="flex flex-col w-full">
     <section
@@ -211,6 +212,7 @@ import FillBtn from '@/components/FillBtn.vue';
 import ProjectCard from '@/components/ProjectCard.vue';
 import DescProjet from '@/components/DescProjet.vue';
 import DescProjet2 from '@/components/DescProjet2.vue';
+import ScrollBar from '@/components/ScrollBar.vue';
 
 export default {
 
@@ -223,8 +225,8 @@ export default {
     FillBtn,
     ProjectCard,
     DescProjet,
-    DescProjet2
-
+    DescProjet2,
+    ScrollBar
   },
 
 }
