@@ -1,4 +1,4 @@
-<template>
+<template >
   <ScrollBar />
   <GithubPub />
   <Nav />
@@ -82,7 +82,7 @@
                   <p class="border-r-[1px] border-noir pr-6 w-11/12 text-right">Ou même la suite Adobe avec <span class="text-primary font-semibold">Illustrator</span>, <span class="text-primary font-semibold">Photoshop </span>et <span class="text-primary font-semibold">Xd</span>, <span class="text-primary font-semibold">Zeplin</span> ou encore <span class="text-primary font-semibold">Figma</span>, avec lequel je travaille réguliérement.</p>
                 </div>
                 <div class="skills grid lg:grid-cols-4 gap-4 lg:gap-0 grid-cols-2 lg:w-3/5 justify-between">
-                  <Skill titre="Zeplin" href="https://zeplin.io/" url="/images/Zeplin-logo.svg" skill="Zeplin"/>
+                  <Skill titre="Zeplin" href="https://zeplin.io/" url="/images/zeplin-logo.svg" skill="Zeplin"/>
                   <Skill titre="Illustrator" href="https://helpx.adobe.com/fr/illustrator/user-guide.html"
                     url="/images/illustrator-logo.svg" skill="Ai" />
                   <Skill titre="Xd" href="https://helpx.adobe.com/fr/xd/help/cloud-documents.html"
