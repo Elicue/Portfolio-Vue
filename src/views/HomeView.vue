@@ -29,8 +29,7 @@
           <div
             class="lg:w-[30vw] lg:flex hidden w-11/12 bg-primary border-[1.5px] border-primary lg:h-full h-[80vh] absolute top-4 z-[-1] left-4">
           </div>
-          <div
-            class="card lg:w-[30vw] w-full border-[1.5px] border-noir lg:h-full h-[80vh] text-noir bg-blanc items-end pb-8 flex hover:translate-x-4 hover:translate-y-4 transition-all ">
+          <div class="card lg:w-[30vw] w-full border-[1.5px] border-noir lg:h-full md:h-[60vh] h-[70vh] text-noir bg-blanc items-end pb-8 flex hover:translate-x-4 hover:translate-y-4 transition-all ">
             <div class="flex flex-col relative justify-between h-5/6 w-10/12 mx-auto">
               <h2 class="ml-auto font-semibold text-3xl">À propos</h2>
               <div class="flex flex-col gap-3">
@@ -63,7 +62,7 @@
           <div class="h-full justify-between flex flex-col">
             <div class="skills h-full justify-between flex flex-col gap-16">
               <div class="lg:h-[20vh] flex flex-col lg:flex-row">
-                <div class="skills grid lg:grid-cols-4 gap-4 lg:gap-0 grid-cols-2 lg:w-3/5 justify-between">
+                <div class="skills grid lg:grid-cols-4 md:grid-cols-4 gap-4 lg:gap-0 grid-cols-2 lg:w-3/5 justify-between">
                   <Skill titre="html" href="https://developer.mozilla.org/fr/docs/Web/HTML" url="/images/html-logo.svg"
                     skill="html" />
                   <Skill titre="sass" href="https://sass-lang.com/documentation/" url="/images/sass-logo.svg"
@@ -81,7 +80,7 @@
                 <div class="lg:w-2/5 flex flex-row items-center lg:mb-0 mt-8">
                   <p class="border-r-[1px] border-noir pr-6 w-11/12 text-right">Ou même la suite Adobe avec <span class="text-primary font-semibold">Illustrator</span>, <span class="text-primary font-semibold">Photoshop </span>et <span class="text-primary font-semibold">Xd</span>, <span class="text-primary font-semibold">Zeplin</span> ou encore <span class="text-primary font-semibold">Figma</span>, avec lequel je travaille réguliérement.</p>
                 </div>
-                <div class="skills grid lg:grid-cols-4 gap-4 lg:gap-0 grid-cols-2 lg:w-3/5 justify-between">
+                <div class="skills grid lg:grid-cols-4 md:grid-cols-4 gap-4 lg:gap-0 grid-cols-2 lg:w-3/5 justify-between">
                   <Skill titre="Zeplin" href="https://zeplin.io/" url="/images/zeplin-logo.svg" skill="Zeplin"/>
                   <Skill titre="Illustrator" href="https://helpx.adobe.com/fr/illustrator/user-guide.html"
                     url="/images/illustrator-logo.svg" skill="Ai" />
@@ -91,7 +90,7 @@
                 </div>
               </div>
               <div class="third lg:h-[20vh] flex flex-col lg:flex-row">
-                <div class="skills grid lg:grid-cols-4 gap-4 lg:gap-0 grid-cols-2 lg:w-3/5 justify-between">
+                <div class="skills grid lg:grid-cols-4 md:grid-cols-4 gap-4 lg:gap-0 grid-cols-2 lg:w-3/5 justify-between">
                   <Skill titre="vue" href="https://vuejs.org/guide/introduction.html" url="/images/vue-logo.svg"
                     skill="vue" />
                   <Skill titre="php" href="https://www.php.net/docs.php" url="/images/php-logo.svg" skill="php" />
@@ -109,7 +108,7 @@
       </div>
     </section>
 
-    <section id="contact" class="w-full lg:h-screen h-fit lg:pt-[9%] pt-[25%] items-center px-[5%] flex lg:flex-row flex-col justify-between">
+    <section id="contact" class="w-full lg:h-screen h-fit lg:pt-[9%] md:pt-0 lg:mb-0 md:mb-24 pt-[25%] items-center px-[5%] flex lg:flex-row flex-col justify-between">
       <div class="flex flex-col lg:w-[40%] w-full gap-8 items-start justify-center">
         <Citation titre="Me contacter" />
         <h1
@@ -138,7 +137,7 @@
           </a>
         </div>
       </div>
-      <div class="flex flex-col lg:w-1/2 w-full mx-auto lg:mx-0 lg:items-end lg:mr-8 relative mb-24 lg:mb-0">
+      <div class="md:hidden lg:flex flex flex-col lg:w-1/2 w-full mx-auto lg:mx-0 lg:items-end lg:mr-8 relative mb-24 lg:mb-0">
         <div class="img w-fil flex flex-col justify-end lg:items-end lg:h-[70vh] h-fit relative lg:mr-4 mt-8 lg:mt-0">
           <div class="absolute z-10 top-24 lg:w-12/12 hidden -right-14 lg:flex">
             <LogoSpin url="images/Smiley.svg" />
