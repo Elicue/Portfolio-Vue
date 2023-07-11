@@ -8,7 +8,7 @@
       <div class="flex flex-col lg:w-[40%] w-full gap-8 items-start justify-center">
         <Citation titre="À propos de moi" />
         <h1
-          class="lg:text-[80px] text-[50px] font-regular lg:leading-[80px] leading-[60px] border-b-4 pb-4 border-primary">
+          class="lg:text-[70px] text-[50px] font-regular lg:leading-[80px] leading-[60px] border-b-4 pb-4 border-primary">
           <span class="font-semibold">Bienvenue </span> sur mon <strong
             class=" font-normal lg:text-[100px] text-[80px] lg:ml-4 text-primary font-macaroni">portfolio</strong></h1>
         <div class="gap-2 flex flex-col mt-4 text-sm lg:text-base">
@@ -54,7 +54,7 @@
         <div class="flex h-fit flex-col w-full gap-4 items-start">
           <Citation titre="Ce que je sais faire" />
           <h1
-            class="lg:text-[80px] text-[50px] font-regular lg:leading-[80px] leading-[60px] border-b-4 pb-4 border-primary">
+            class="lg:text-[70px] text-[50px] font-regular lg:leading-[80px] leading-[60px] border-b-4 pb-4 border-primary">
             Mes <strong
               class=" font-normal lg:text-[100px] text-[80px] lg:ml-4 text-primary font-macaroni">compétences</strong>
           </h1>
@@ -113,7 +113,7 @@
       <div class="flex flex-col lg:w-[40%] w-full gap-8 items-start justify-center">
         <Citation titre="Me contacter" />
         <h1
-          class="lg:text-[80px] text-[50px] font-regular lg:leading-[80px] leading-[60px] border-b-4 pb-4 border-primary">
+          class="lg:text-[70px] text-[50px] font-regular lg:leading-[80px] leading-[60px] border-b-4 pb-4 border-primary">
           Me <strong
             class=" font-normal lg:text-[100px] text-[80px] lg:ml-4 text-primary font-macaroni">contacter</strong></h1>
         <div class="gap-2 flex flex-col mt-4 text-sm lg:text-base">
@@ -124,7 +124,7 @@
           <p>N'hésitez pas à me contacter si vous êtes intéressé par une collaboration dans le cadre d'une
             <strong>alternance enrichissante</strong> et <strong>stimulante</strong>.</p>
         </div>
-        <div>
+        <div class="flex flex-row items-center">
           <a target="_blank" href="https://www.linkedin.com/in/lucie-ehrsam/">
             <p
               class="relative font-inter rounded-full items-center justify-start  px-7 py-2 overflow-hidden transition-all group flex flex-row hover:text-primary lg:text-xl text-base gap-4">
@@ -132,6 +132,9 @@
               Linkedin
               <img class="flex" src="../../public/images/ion_arrow-up.svg" alt="fleche">
             </p>
+          </a>
+          <a href="/documents/EHRSAM-LUCIE-CV.pdf" download>
+            <p class="relative font-inter px-7 py-2 overflow-hidden transition-all underline underline-offset-4 hover:text-primary lg:text-xl text-base gap-4">Mon CV</p>
           </a>
         </div>
       </div>
