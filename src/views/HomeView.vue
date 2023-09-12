@@ -94,7 +94,7 @@
                   <Skill titre="vue" href="https://vuejs.org/guide/introduction.html" url="/images/vue-logo.svg"
                     skill="vue" />
                   <Skill titre="php" href="https://www.php.net/docs.php" url="/images/php-logo.svg" skill="php" />
-                  <Skill titre="Symfoy" href="https://symfony.com/doc/current/index.html" url="/images/symfony-logo.svg" skill="Symfony" />
+                  <Skill titre="Symfony" href="https://symfony.com/doc/current/index.html" url="/images/symfony-logo.svg" skill="Symfony" />
                   <Skill titre="Laravel" href="https://laravel.com/docs/10.x/readme" url="/images/laravel-logo.svg" skill="Laravel" />
                 </div>
                 <div class="lg:w-2/5 flex flex-row items-center lg:my-0 my-8">
