@@ -2,6 +2,9 @@
   <ScrollBar />
   <GithubPub />
   <Nav />
+  <div class="wip w-[100vw] h-[100vh] absolute z-[100] bg-white justify-center items-center flex">
+    <p class=" text-[100px] uppercase">wip</p>
+  </div>
   <div class="flex flex-col w-full lg:gap-[30vh] gap-[10vh]">
     <section
       class="w-full lg:h-screen h-fit lg:pt-[9%] pt-[25%] items-center px-[5%] flex lg:flex-row flex-col justify-between">
